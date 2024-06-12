@@ -1,0 +1,1170 @@
+1 Einleitung
+Wissen über die Welt zu erwerben, zählt seit jeher zum Streben des
+Menschen. Goethe und Humboldt, zwei herausragende deutsche Gelehrte des 18.
+und frühen 19. Jahrhunderts, haben mit großer Neugier sehr viel von ihrer Welt „in
+die eigene Person verwandelt“. Goethe ist heute vielen nur noch als einer unserer
+größten Dichter bekannt, doch er war auch Politiker und ein bedeutender
+Naturforscher. Wilhelm von Humboldt, der ältere Bruder des Forschungsreisenden
+Alexander von Humboldt, ist Namensgeber der Berliner Humboldt-Universität und
+heute vornehmlich als Bildungsreformer bekannt. Doch auch er interessierte sich
+für die naturwissenschaftlichen Erkenntnisse seiner Zeit und machte sich als
+Analytiker von Kunst und Kultur einen Namen.
+Durch die Explosion des Wissens in den letzten zwei Jahrhunderten ist es
+heute niemandem mehr möglich, als Universalgelehrte einen Großteil des
+verfügbaren Wissens zu beherrschen, wie Goethe und Humboldt das zu ihrer Zeit
+noch taten. Doch ein breites Allgemeinwissen ist im „Land der Dichter und Denker“
+bis heute ein Bildungsideal geblieben. Wissenschaftliche Neugier zu wecken, ist
+eins der Ziele engagierter Lehrer.
+Neugier und Allgemeinwissen sind im Alltag häufig gebrauchte Begriffe, die
+ganz selbstverständlich zur Erklärung von Bildungs- und Berufserfolg und zur
+Charakterisierung von Personen herangezogen werden. Dass intellektuelle
+Neugier das Allgemeinwissen erweitert, entspricht der alltäglichen Erfahrung. Die
+empirische Untermauerung solcher Annahmen aus dem Alltag und ihre Einbettung
+in eine umfassendere Theorie wurde bislang jedoch versäumt. In der
+wissenschaftlichen Psychologie genießen Neugier und Allgemeinwissen bei
+weitem noch nicht die Beachtung, die ihrer großen alltagspsychologischen
+Bedeutung angemessen wäre. Für die Praxis fehlen daher grundlegende
+Erkenntnisse, auf deren Basis fundierte Empfehlungen für die Anregung und
+Nutzung von Neugier für den Wissenserwerb ausgesprochen werden könnten.
+In den folgenden Abschnitten stelle ich zunächst den aktuellen
+Forschungsstand zu Neugier und Allgemeinwissen dar und verbinde die
+Konstrukte anschließend zu einer empirisch untersuchbaren Fragestellung.
+1.1 Neugier
+Als wissenschaftliches Konstrukt wurde Neugier von Berlyne (1954a) in die
+Psychologie eingeführt. Aufbauend auf Arbeiten anderer Psychologen, hatte
+Berlyne (1949) zunächst versucht, „Interesse“ als psychologisches Konstrukt
+fassbar zu machen. In diesem Zusammenhang identifizierte er Neugier als einen
+motivationalen Faktor, der dem Interesse zugrunde liegt. Die Extension des
+Interessebegriffs erwies sich jedoch je nach Definition als zu weit oder zu eng, um
+für die Forschung fruchtbar zu sein (Neidhardt-Wilberg, 2006). 1950 untersuchte
+Berlyne die Neuartigkeit von Reizen und die Neugier als Determinanten
+explorativen Verhaltens. Dabei formulierte er eine erste „Theory of Curiosity“
+(Berlyne, 1950, S. 72), die er im Tierexperiment stützen konnte. Später
+unterschied er diese perzeptuelle Neugier, welche bei Mensch und Tier
+gleichermaßen vorkommt, die Aufmerksamkeit für Reize erhöht und zu deren
+Exploration führt, von der für den Menschen typischen epistemischen Neugier
+(Berlyne, 1954a), die auf die Aneignung von Wissen abzielt, das in Form
+symbolischer Repräsentationen dauerhaft im Langzeitgedächtnis gespeichert
+werden kann.
+Neugier ist demnach als Trieb zu verstehen, der nachfolgende Handlungen
+energetisiert und so Erfahrungsgewinn und Wissenserwerb anregt (Berlyne,
+1978). In diesem Sinne bietet Neugier einen evolutionären Anpassungsvorteil
+(Neidhardt-Wilberg, 2006).
+Berlyne interessierte in seiner Forschung vornehmlich dafür, welche
+Eigenschaften ein Stimulus aufweisen muss, um Neugier hervorrufen (NeidhardtNeugier
+als Prädiktor für den Erwerb von Allgemeinwissen 8
+Wilberg, 2006). Die Neugier eines Menschen ist hier als vorübergehender Zustand
+(State) zu verstehen, der als Reaktion auf einen Reiz auftritt. Ein Reiz ist nach
+Berlyne (1954a) geeignet, epistemische Neugier zu wecken, wenn er einen
+kognitiven Konflikt verursacht, beispielsweise wenn eine Frage (der Reiz) gestellt
+wird, auf die ein Mensch keine Antwort weiß. Besonders stark wird dieser Konflikt
+nach Berlyne, wenn vordergründig unvereinbare Konzepte in der Frage
+miteinander verbunden werden oder wenn unvereinbare Antworten gleich
+wahrscheinlich erscheinen. Dann provoziert der kognitive Konflikt ein Verhalten,
+das darauf ausgerichtet ist, den Konflikt aufzulösen, also beispielsweise eine
+akzeptable Antwort auf eine Neugier auslösende Frage zu finden. Gleichzeitig
+verbessert sich seiner Darstellung nach die Erinnerungswahrscheinlichkeit für die
+korrekte Antwort auf einen Reiz, der anfangs starke Neugier auslöste. Berlyne
+(1954a, S. 183) zählt unter anderem Nachdenken, Nachfragen bei Experten und
+Nachschlagen in Büchern zu den geeigneten Verhaltensweisen, mit denen
+epistemische Neugier gestillt werden kann.
+Neugier als stabiles Persönlichkeitsmerkmal (Trait) und interindividuelle
+Unterschiede waren für Berlyne von untergeordneter Bedeutung. Seit den 1970-er
+Jahren wurden Instrumente zur Erhebung von Neugier in Bezug auf State und
+Trait ausdifferenziert (Naylor, 1981; Spielberger, 1979, zitiert nach Collins, Litman
+& Spielberger, 2004). Die neuere Neugierforschung fokussiert vor allem Trait-
+Neugier (Kayser, 2013; Neidhardt-Wilberg, 2006) und hat das Konstrukt in den
+letzten Jahren nach unterschiedlichen Kriterien in Facetten zerlegt und spezielle
+Erhebungsinstrumente dafür entwickelt und evaluiert (für einen Überblick s.
+Kayser, 2013). Besonders großes Interesse zeigten verschiedene
+Forschergruppen dabei an der Unterscheidung von spezifischer und diversiver
+Neugier, die bereits auf Berlyne (1960) zurückgeht. Sie findet sich unter anderem
+wörtlich in der Epistemic Curiosity Scale (Litman & Spielberger, 2003) wieder, als
+Exploration und Absorption im Curiosity and Exploration Inventory (Kashdan, Rose
+& Fincham, 2004) sowie als „stretching“ und „embracing“ in dessen
+Weiterentwicklung, dem Curiosity and Exploration Inventory II (Kashdan et al.,
+2009). Die Unterscheidungen sind dabei nicht absolut deckungsgleich, aber
+ähnlich genug, um mit diesen Skalen Aspekte spezifischer und diversiver Neugier
+beleuchten zu können.
+Zu den für die praktische Anwendung vielversprechendsten Entwicklungen
+der letzten Jahre zählen Untersuchungen, die Facetten von Neugier mit Leistungsund
+Erfolgsfaktoren im Beruf (Mussel, 2011) und im sozialen Kontext (Renner,
+2006a) in Verbindung bringen und damit die positiven Folgen von Neugier noch
+einmal betonen.
+Zu den bisher ungelösten Problemen der Neugierforschung zählen Probleme
+der Abgrenzung von ähnlichen Konstrukten, beispielsweise intellektuellem
+Engagement, Offenheit für Ideen und dem Bedürfnis nach Kognition, die sich in
+ungenügender diskriminanter Validität des Neugierkonstrukts zeigen (Mussel,
+2010). Die Entwicklung eines theoretischen Rahmens für Einflüsse auf
+intellektuelle Erfolge, der neben den genannten ähnlichen Konstrukten auch
+Facetten epistemischer Neugier in ein größeres Konzept integriert (Mussel, 2013),
+könnte sich als sinnvoller Ansatz erweisen, die Beziehungen zwischen diesen
+Konstrukten und ihre differenzielle Aussagekraft in Bezug auf unterschiedliche
+Kriterien aufzudecken.
+Schmid (2008) verfolgt dagegen einen ganz anderen Ansatz und untersucht
+in seinem integrativen Phasenmodell den Prozess der Neugierentstehung. Er
+kommt zu dem Schluss, dass nachfolgendes Handeln nur dann auf Neugier
+attribuiert wird, wenn den Informationen, nach denen gesucht wird, keine oder nur
+geringe Instrumentalität zukommt. Setzt man das in Beziehung zu einer zentralen
+Annahme der Self Determination Theory (Deci & Ryan, 1985), so könnte hier
+Neugier intrinsische Motivation verstanden werden, die durch extrinsische
+Motivation (nämlich der wie auch immer gearteten Instrumentalität des
+Wissenserwerbs) unterminiert wird. Ob Neugier allerdings tatsächlich als rein
+intrinsische Motivation zu verstehen ist, ist in der Literatur umstritten und wird in
+Reinform kaum noch vertreten (s. Neidhardt-Wilberg, 2006, Schneider, 1996). Wie
+die unterschiedliche Attribution ähnlicher Verhaltensweisen des Wissenserwerbs
+und eine davon abhängige Art der Motivation für die weitere Forschung und die
+Praxis fruchtbar gemacht werden kann, bleibt bei Schmid jedoch vorläufig offen.
+Ohne sich explizit auf Berlynes Konzeption von Neugier zu berufen,
+enthalten auch breit angelegte Persönlichkeitsinventare Faktoren, die Neugier mit
+einschließen oder Überschneidungen damit aufweisen. Als in der
+Persönlichkeitsforschung wohl wichtiges Modell muss hier das Fünf-FaktorenNeugier
+als Prädiktor für den Erwerb von Allgemeinwissen 10
+Modell der Persönlichkeit genannt werden, in dem Neugier innerhalb des Faktors
+Offenheit für Erfahrungen anzusiedeln ist. Im NEO-PI-R zur Erhebung der Big Five
+einschließlich ihrer Facetten (Ostendorf & Angleitner, 2003) taucht der Begriff der
+Neugier zwar nicht explizit auf, die Facetten von Offenheit (für Fantasie, Ästhetik,
+Gefühle, Handlungen, Ideen sowie des Werte- und Normensystems) sprechen
+Neugier jedoch mehr oder weniger deutlich mit an.
+Eine umfassende Theorie, die State- und Trait-Neugier sowohl in ihrer
+ganzen Breite als auch in ihren einzelnen Facetten erfasst sowie deren
+Zusammenspiel und differenzielle Relevanz bei der Vorhersage und Erklärung von
+Wissen, Anstrengung, Erfolgen, Leistungen oder Denk- und Handlungsweisen in
+unterschiedlichen Kontexten erklärt, und entsprechende Erhebungsinstrumente
+fehlen jedoch bisher.
+1.2 Allgemeinwissen
+„Wissen stellt einen relativ dauerhaften Inhalt des Gedächtnisses dar, dessen
+Bedeutsamkeit durch soziale Übereinkunft festgelegt wird. Vom Wissen eines
+bestimmten Menschen ist in der Regel nur die Rede, wenn er Überzeugung von
+der Gültigkeit dieses Wissens besitzt“ (Gruber & Stamouli, 2009, S. 34).
+Allgemeinwissen ist als Teilmenge dieses Wissens zu verstehen. Neidhardt-
+Wilberg (2005) definiert Allgemeinwissen als semantische Inhalte des deklarativen
+Gedächtnisses, die intentional vermittelt, aber auch inzidentiell oder aus den
+Massenmedien aufgenommen werden können. Allgemeinwissen wird ein
+kultureller Wert zugemessen (Lynn, Wilberg & Margraf-Striksrud, 2004).
+Verschiedene Intelligenztheorien berücksichtigen Allgemeinwissen als eine
+Komponente der Intelligenz. Die Rolle des Allgemeinwissens wird dabei
+unterschiedlich beschrieben: von einer Markiervariablen für einen Generalfaktor
+der Intelligenz bis hin zu einem Konstrukt, das weitgehend unabhängig von
+anderen Intelligenzfaktoren ist (Neidhardt-Wilberg, 2005). In der neueren
+Forschung wird das Allgemeinwissen häufig auf Grundlage von Cattells (1987)
+Intelligenztheorie als wichtiger Bestandteil kristalliner Intelligenz behandelt
+(Carroll, 1993) oder mit dieser gleichgesetzt (z.B. Batey, Furnham & Safiullina,
+2010). Lynn und Irwing (2002) schlagen sogar vor, das Allgemeinwissen als
+Subfaktor kristalliner Intelligenz zu entfernen und stattdessen gleichberechtigt
+neben die kristalline und fluide Intelligenz zu setzen. Unterschiedliche
+Wissensdomänen sollen dabei eigene Subfaktoren des Allgemeinwissens bilden.
+Von fluider Intelligenz ist Allgemeinwissen in jedem Fall deutlich abgrenzbar.
+Als wichtige Implikation betont diese Konzeption, dass Allgemeinwissen im
+Gegensatz zur fluiden Intelligenz nicht kulturfrei erhoben werden kann (Neidhardt-
+Wilberg, 2005), was die Abhängigkeit von der kulturellen Bewertung
+wiederspiegelt, die bereits in der Definition anklang.
+Im deutschen Sprachgebrauch wird Allgemeinwissen oft nicht von
+schulischer Bildung abgegrenzt (Allgemeinbildung). Das zeigt sich nicht nur in der
+öffentlichen Diskussion, sondern durchaus auch in wissenschaftlicher
+Psychologie. Wie stark Maße des Allgemeinwissens an schulischen Curricula oder
+einem klassischen Bildungskanon orientiert sind oder wie weit sie das Konstrukt
+darüber hinaus ausdehnen, differiert erheblich zwischen unterschiedlichen
+Erhebungsinstrumenten und muss im Zweifel aus Beispielitems oder
+Aufzählungen von berücksichtigten Wissensgebieten erschlossen werden.
+In der vorliegenden Arbeit soll Allgemeinwissen in einem weiten Sinne
+verstanden werden. Allgemeinbildung im Sinne von schulischem oder
+akademischem Faktenwissen ist darin eingeschlossen, gleichwertig daneben
+stehen jedoch Themenbereiche, die Alltags- oder Freizeitwissen zuzuordnen sind
+(etwa Popmusik und Spiel).
+Zu den Besonderheiten der Testung von Allgemeinwissen gehört es, dass
+zwar auf die interessierende Gesamtpopulation bezogen weder spezielle
+Interessen noch Expertise abgefragt werden, bei jedem einzelnen Teilnehmenden
+jedoch damit gerechnet werden muss, dass eine größere oder kleinere Teilmenge
+der Items Interessenschwerpunkte oder gar berufliche Expertise betreffen.
+1.3 Verbindung von Neugier und Allgemeinwissen
+Bereits Berlyne (1954a) konzipiert epistemische Neugier als gerichteten
+Trieb, der unmittelbar auf Wissen abzielt. Er spezifiziert keine bestimmte Art von
+Wissen, auf die sich die Neugier richtet. Er selbst untersuchte die Verbindung von
+Neugier und Wissen in unterschiedlich ausgerichteten Experimenten: Während
+Wissen über wirbellose Tiere (Berlyne, 1954b) als Test von Expertise verstanden
+werden kann, bereitete er mit Fragen nach den Urhebern von Zitaten (Berlyne,
+1962) dem Allgemeinwissen als Gegenstand der Neugier den Weg.
+Neugier, die sich auf Allgemeinwissen richtet, erscheint im Rahmen der
+Konzeption von spezifischer und diversiver Neugier nach Berlyne (1960)
+besonders viele Fragen aufzuwerfen, weil Allgemeinwissen explizit nicht nur die
+besonderen Interessengebiete einer Person berücksichtigt, sondern einen breiten
+Gegenstandsbereich abdeckt, über den hinweg das Interesse einer Person stark
+unterschiedlich ausgeprägt sein dürfte. Die durch Neugier ausgelöste
+Wissenssuche kann entweder der breiten Exploration aufgrund von Langeweile
+dienen oder auf spezifische Einzelelemente ausgerichtet sein, die einer Person
+wissenswert erscheinen. Auch wenn diese Abgrenzung nicht vollständig mit der
+Unterscheidung von Berlyne übereinstimmt, wird man je nachdem, was überwiegt,
+argumentieren können, dass Interesse neben oder statt Neugier einen starken
+Einfluss ausübt.
+Auf theoretischer Ebene setzte sich Ackerman (1996) mit den
+Zusammenhängen von Wissen und Intelligenz auseinander und stellte dabei auch
+eine Verbindung zu Persönlichkeitsmerkmalen her, in die (Trait-)Neugier
+eingeordnet werden kann: Auf Grundlage von Arbeiten Cattells schlug er die PPIK
+vor, eine Theorie, die „intelligence-as-process, personality, interests, and
+intelligence-as-knowledge“ (S. 237) miteinander verbindet. „Intelligence-asknowledge“
+(Anteile kristalliner Intelligenz, zu denen auch das Allgemeinwissen
+zählt) versteht er dabei als Resultat von in der Vergangenheit investierter
+„intelligence-as-process“ (fluider Intelligenz). Neugier lässt sich die diese Theorie
+als das Persönlichkeitsmerkmal einordnen, das „intelligence-as-process“, also die
+Investition fluider Intelligenz zur Ansammlung von „intelligence-as-knowledge“
+auslöst. Dass neben den Persönlichkeitsmerkmalen in Ackermans Theorie auch
+Interessen eine wichtige Rolle spielen, verdeutlicht allerdings nochmals die
+Notwendigkeit, Übereinstimmungen und Abgrenzungen zwischen den Konstrukten
+der Neugier und des Interesses exakter zu definieren, als dies bisher geschehen
+ist.
+1.4 Hypothesen
+In der neueren Forschung spielt Neugier als Trait zwar eine interessante
+Rolle, doch der unmittelbare Zusammenhang zwischen der Neugier einer Person
+und dem Wissen, auf das sie gerichtet ist, wurde von der empirischen Forschung
+seit Berlynes Arbeiten vernachlässigt. Mit der vorliegenden Untersuchung möchte
+ich diese Lücke im Hinblick auf Allgemeinwissen als eine spezielle Form von
+Wissen verkleinern. Dazu werde ich die folgenden Hypothesen überprüfen:
+(1) Wird Neugier als Trait verstanden, so impliziert das eine gewisse zeitliche
+Stabilität: Die Ausprägung der Neugier einer Person heute stellt einen Indikator für
+ihre Ausprägung in der Vergangenheit dar. Personen mit ausgeprägter Neugier
+sollten im Verlauf ihres bisherigen Lebens mehr Allgemeinwissen angesammelt
+haben als Personen mit geringer Neugier. Neugier als UV sagt folglich das
+Allgemeinwissen zu den Testzeitpunkten T1 und T2 als AV voraus.
+(2) Wenn eine Person in einem Allgemeinwissenstest eine Frage nicht
+beantworten kann, so könnte das ein Auslöser von Neugier (State) im Sinne
+Berlynes sein und insbesondere bei Personen mit ausgeprägter Neugier (Trait)
+den Versuch auslösen, diese Wissenslücke zu füllen. Personen mit höherer
+Neugier sollten ihr Allgemeinwissen im Anschluss an einen Test stärker
+verbessern als Personen mit geringerer Neugier. Neugier als UV sagt folglich die
+Verbesserung des Allgemeinwissens zwischen den Testzeitpunkten T1 und T2 als
+AV voraus.
+(3) Richtet sich die Neugier einer Person tatsächlich auf Allgemeinwissen
+oder nur auf die Bereiche des Allgemeinwissens, die zu ihren besonderen
+Interessen zählen? Einen ersten Hinweis darauf könnte die differenzierte
+Betrachtung von diversiver und spezifischer Neugier geben, wobei diversive
+Neugier besser mit dem breiten Konstrukt des Allgemeinwissens, spezifische
+Neugier eher mit persönlichen Interessen in Verbindung gebracht werden kann.
+Folglich soll untersucht werden, ob diversive Neugier (UV1) die Verbesserung des
+Allgemeinwissens zwischen den Testzeitpunkten T1 und T2 (AV) besser
+voraussagt als spezifische Neugier (UV2).
+2 Methode
+Um den Zusammenhang zwischen Neugier und der Verbesserung des
+Allgemeinwissens zu untersuchen, führte ich gemeinsam mit einem Kommilitonen
+im Juni und Juli 2013 zwei aufeinander aufbauende Umfragen online über Unipark
+durch. Eine gemeinsame Erhebung war notwendig, da wir beide mit demselben
+Allgemeinwissenstests arbeiteten und bei getrennter Datenerhebung keinerlei
+Kontrolle darüber gehabt hätten, wie oft und in welchem Abstand unser
+Teilnehmerkreis die Fragen bearbeitete. Wir implementierten die Umfragen
+gemeinsam, werteten sie jedoch jeder für sich im Hinblick auf unterschiedliche
+Hypothesen aus. Zusätzlich zu Allgemeinwissen und Neugier erhob der
+Kommilitone ein weiteres Konstrukt, Achtsamkeit (Schäfer, 2013). In meiner Arbeit
+werde ich die Daten zur Achtsamkeit nicht weiter berücksichtigen.
+2.1 Stichprobe
+Bei Untersuchungen, die keine Replikationen oder Variationen anderer
+Studien darstellen, erscheint es besonders wichtig, eine angemessene Power zu
+erreichen, um erwartete Effekte auch detektieren zu können. Der Gewinnung einer
+ausreichenden Teilnehmerzahl habe ich daher besondere Aufmerksamkeit
+gewidmet.
+2.1.1 Geplante Stichprobe
+Empirische Untersuchungen zum direkten Zusammenhang zwischen Trait-
+Neugier und Allgemeinwissen oder dessen Verbesserung fehlen bisher. Somit
+liegen auch keine Vorerfahrungen vor, aus denen die erwartete Effektgröße
+unmittelbar geschätzt werden könnte.
+Zwei publizierte Studien geben jedoch grobe Anhaltspunkte, welche Effekte
+zum Zusammenhang von Neugier und Allgemeinwissen zu erwarten sein könnten:
+ Furnham, Christopher, Garwood und Martin (2007) setzten in einer Studie
+die Resultate im General Knowledge Test (GKT) von Irwing, Cammock
+und Lynn (2001) in Bezug zu den Big Five der Persönlichkeit. Zwischen
+dem Faktor Offenheit für Erfahrungen und dem Ergebnis des GKT
+berichteten sie eine Korrelation von r = .31. Wenn man Neugier als quer
+zu den Subfaktoren von Offenheit liegendes Konstrukt begreift, das
+speziell auf Wissenserwerb abzielt, liegt es nahe, eine Korrelation von
+etwa r = .30 anzunehmen.
+ Zu einem recht uneinheitlichen Bild kommt dagegen Mussel (2010): Er
+findet lediglich Korrelationen im Bereich von .13 bis .46 zwischen
+verschiedenen Neugierskalen und Offenheit für Erfahrungen, was Zweifel
+an der Annahme wecken könnte, dass Neugier ähnlich hoch mit Wissen
+korreliert sei wie mit Offenheit. Andererseits könnte Neugier inkrementelle
+Validität als Prädiktor für das Allgemeinwissen haben, die von Offenheit
+nicht erfasst wird. Auch für den Zusammenhang zwischen Neugierskalen
+und Studienleistung findet er lediglich Korrelationen im Bereich von .08
+und .22, zwischen Neugierskalen und beruflichem Erfolg im Bereich von
+.23 bis .35 (jeweils ohne Berücksichtigung sozialer Neugier, die noch
+niedriger mit Studienleistung und Berufserfolg korreliert).
+Da Mussel (2010) Zusammenhänge betrachtet, die weiter vom
+Untersuchungsgegenstand der vorliegenden Studie entfernt sind als die bei
+Furnham et al. (2007), sollen letztere als Anhaltspunkt herangezogen und von
+einer Korrelation von ungefähr r = .30 zwischen Neugier und Allgemeinwissen
+(Hypothese 1) ausgegangen werden. Für den Zusammenhang zwischen Neugier
+und der Verbesserung des Allgemeinwissens (Hypothese 2) liegt keine bessere
+Schätzung vor, weshalb auch hier von einer ebenso großen Korrelation
+auszugehen ist. Schließlich führt die differenzielle Betrachtung zweier Subskalen
+(Hypothese 3) dazu, dass statt von einer einfachen, von der multiplen Korrelation
+der Prädiktoren mit dem Kriterium ausgegangen werden muss, die aber ebenfalls
+ähnlich hoch erwarten werden kann.
+Im Zusammenhang mit Regressionsanalysen bietet sich Cohens f2 als
+geeignete Effektgröße an (Cohen,1988). Im Fall, dass lediglich die gemeinsamen
+Effekte im Gesamtmodell interessieren, wird f2 gemäß Formel (1) berechnet als:
+(1)
+Nach Cohen (1988, S. 412) gilt f2 = .02 als kleine Effektstärke, f2 = .15 als
+mittlere und f2 = .35 als große. Mit einer Korrelation (bzw. einer multiplen
+Korrelation im Falle mehrerer Prädiktoren) von r = .30 ergibt sich f2 = .0989 ≈ .10.
+Somit ist mit einem kleinen bis mittleren Effekt zu rechnen.
+Zur Abschätzung des Stichprobenumfangs verwendete ich G*Power (Faul,
+Erdfelder, Buchner & Lang, 2009) in der Version 3.1. Es ergaben sich für eine
+angestrebte Power von .95 notwendige Stichprobenumfänge von 132 im Falle
+eines Prädiktors und von 158 im Fall von zwei Prädiktoren (s. Tab. 1).
+Der zeitliche Rahmen dieser Bachelorarbeit begrenzte die Möglichkeiten der
+Untersuchungsgestaltung: Eine angemessene Teilnehmerzahl erschien mit einer
+Durchführung vor Ort kaum zu erzielen, zumal die Personen ja zweimal zur
+Verfügung stehen mussten und zwischen den beiden Terminen ausreichend Zeit
+und Gelegenheit zur möglichen Informationssuche notwendig war.
+Erfolgversprechender war der Zugriff auf den Pool der Studierenden im B.Sc.
+Psychologie, die für ihren Zeitaufwand mit Versuchspersonenstunden entschädigt
+werden konnten. Da die Studierenden der FernUniversität in Hagen über ganz
+Deutschland und darüber hinaus verteilt leben, war eine Onlineuntersuchung der
+beste Weg, sie zu erreichen.
+Wie aus Studierendenkreisen zu erfahren war, zählt es zu den Nachteilen
+einer solchen Ansprache studentischer Teilnehmer, dass die Umfragen oft nur
+sehr flüchtig ausgefüllt werden und eine große Anzahl von Datensätzen
+(manchmal über 50%) wegen mangelnder Qualität ausgeschlossen werden muss.
+Auch ließ die Notwendigkeit einer zweimaligen Teilnahme eine nicht unerhebliche
+Ausfallquote erwarten, denn interpretierbar waren nur Datensätze mit Daten von
+beiden Umfragezeitpunkten. Die Anwerbung weiterer Teilnehmer über den
+Studierendenpool hinaus sollte diese Unwägbarkeiten ausgleichen.
+Angestrebt waren zur Sicherheit mindestens 300 Teilnehmer, wenn möglich
+mehr, um auch bei erheblichen Ausfällen noch aussagekräftige Daten zu erhalten.
+Dazu richtete ich gemeinsam mit dem Kommilitonen die Zeitplanung so aus, dass
+die Umfrage so früh wie möglich starten und so lange wie möglich offen bleiben
+konnte. Letztlich startete die erste Umfrage am 25.06.2013 und war bis
+einschließlich 22.07.2013 offen, die zweite Umfrage konnte entsprechend des
+vorgesehenen Zeitablaufs (s. Abschnitt 2.5) frühestens am 26.06.2013
+beantwortet werden und war bis einschließlich 27.07.2013 erreichbar.
+2.1.2 Datenbereinigung und realisierte Stichprobe
+581 Personen beendeten die erste Umfrage, 455 Personen die zweite
+Umfrage. Die sechs Stellen des während der Umfrage von jedem Teilnehmenden
+erstellten Pseudonymisierungscodes wurden zu einem Key verbunden und dabei
+Großbuchstaben in Kleinbuchstaben verwandelt. Die Dateien der beiden
+Umfragen wurden anhand dieses Keys gematcht. Es resultierte eine Datei mit 593
+Datensätzen, in denen 12-mal die Daten der ersten, 138-mal die Daten der
+zweiten Umfrage fehlten. Nach dem Ausschluss dieser unvollständigen
+Datensätze blieben 443 auswertbare Datensätze mit Daten aus beiden Umfragen
+übrig.
+Aus dieser ursprünglichen Stichprobe mussten aufgrund der Ausprägung von
+geplanten Kontrollvariablen insgesamt 76 Personen ausgeschlossen werden (s.
+Tab. 2). Ausschlussgründe waren Doppelteilnahme, Überschreitung des
+vorgegebenen Maximalabstands von fünf Tagen zwischen der Beendigung der
+ersten und dem Beginn der zweiten Umfrage und niedriger Gewissenhaftigkeit
+beim Ausfüllen. Naheliegend wäre auch einen Ausschluss von Personen
+gewesen, welche die Umfrage entweder auffallend schnell (flüchtig) oder
+auffallend langsam (als Indiz für Schummeln) ausgefüllt haben. Ein Vortest ergab
+jedoch, dass der Zeitbedarf stark von der Vertrautheit der Teilnehmenden mit dem
+Computer und ihrer Tippgeschwindigkeit abhing. Ein Ausschluss aufgrund der
+Geschwindigkeit erschien deshalb nicht sinnvoll. Insgesamt blieben 367
+Datensätze übrig.
+Während der Datenauswertung fielen außerdem Ausreißer in den
+Datensätzen auf, bei denen sich die Antworten im GKT-D zwischen dem ersten
+und dem zweiten Durchgang auffällig häufig verschlechterten (bis zu 16-mal; M =
+1.57; SD = 1.76). Eine solche mehrfache Verschlechterung kann am ehesten als
+mangelnde Bereitschaft gedeutet werden, zweimal dieselben Wissensfragen zu
+beantworten (s. Abschnitt 2.3.2). Daher wurden neun weitere Datensätze, bei
+denen die Anzahl der Verschlechterungen den Mittelwert um mindestens das 2,5-
+fache der Standardabweichung überstiegen (Grenzwert 5.97, also Datensätze mit
+sechs und mehr Verschlechterungen im GKT-D), als unzuverlässig
+ausgeschlossen.
+Somit gingen die Daten von 358 Personen (260 Frauen, 98 Männer) im Alter
+zwischen 17 und 73 Jahren (M = 31.99, SD = 10.24) in die weiteren Analysen ein.
+143 (40%) von ihnen verfügten über einen Fachhochschulabschluss,
+Hochschulabschluss oder sogar eine Promotion, weitere 161 (45%) über
+Fachhochschul- oder Hochschulreife. Eine abgeschlossene Berufsausbildung oder
+darauf aufbauend eine Techniker-, Meister- oder vergleichbare Prüfung gaben 43
+Personen (12%) als höchsten erreichten Abschluss an (Mehrfachangaben waren
+nicht möglich). Insgesamt war das Bildungsniveau der Teilnehmenden also
+auffallend hoch.
+220 Teilnehmer (61%, davon 163 Frauen und 57 Männer) im Alter zwischen
+18 und 61 Jahren (M = 32.86, SD = 8.92) riefen die erste Umfrage über einen Link
+im virtuellen Labor des Instituts für Psychologie an der FernUniversität in Hagen
+auf. Diese Teilnehmer mussten sich mit Zugangsdaten als Studierende des B.Sc.
+Psychologie der FernUniversität ausweisen und konnten am Ende der zweiten
+Befragung eine Bescheinigung über zwei Versuchspersonenstunden anfordern.
+Die übrigen 138 Teilnehmer (97 Frauen und 41 Männer) im Alter zwischen 17 und
+73 Jahren (M = 30.62, SD = 11.96) waren über die Veröffentlichung in privaten
+Profilen und einschlägigen Gruppen auf Facebook und über persönliche
+Einladungen per Email angeworben worden. Auch unter diesen Teilnehmern
+können Studierende des B.Sc. oder M.Sc. Psychologie gewesen sein, es ist
+allerdings bei dieser Gruppe davon auszugehen, dass sie keine
+Versuchspersonenstunden mehr benötigten und ohne externen Anreiz teilnahmen.
+2.2 Unabhängige Maße: Neugier
+In den letzten Jahren sind etliche Skalen zur Erhebung epistemischer
+Neugier als Trait entwickelt worden, die auf sich die Konzeption von Neugier nach
+Berlyne berufen. Bei genauerer Analyse zeigt sich, dass diese Tests auf
+unterschiedliche Aspekte und Objekte von Neugier abzielen (Renner, 2006a).
+Da also kein allgemein anerkannter Standard für die Erhebung von Trait-
+Neugier existiert, erschienen mir folgende Kriterien für die Auswahl aus den
+existierenden Skalen wesentlich:
+ Die Skala sollte bereits in publizierten Studien erprobt sein, um eine
+Einordnung der Ergebnisse dieser Untersuchung in einen größeren
+Kontext zu erleichtern.
+ Es sollte sich möglichst um eine bereits erprobte deutsche Version einer
+Skala handeln, da die Validierung einer eigenen Übersetzung im
+zeitlichen Rahmen der Bachelorarbeit kaum möglich erschien.
+ Sie sollte eine Unterscheidung zwischen diversiver und spezifischer
+Neugier erlauben.
+ Sie sollte in ihren Items keine möglichen Objekte von Neugier
+ansprechen, die mit dem Konstrukt des Allgemeinwissens nicht oder
+kaum in Verbindung gebracht werden können.
+Zunächst erschien die deutsche Version des Epistemic Curiosity Inventory
+(Renner, 2006b) vielversprechend, da diese Skala nicht nur explizit in Subskalen
+zu diversiver und spezifischer Neugier unterteilt ist, sondern auch Neugier speziell
+als Tendenz erfasst, Möglichkeiten zum Wissenserwerb zu suchen (Renner,
+2006a). Doch bei genauerer Betrachtung passten zwar einige der Items gut zur
+Informationssuche aufgrund wahrgenommener Lücken im Allgemeinwissen,
+andere dagegen überhaupt nicht (s. Tab. 3).
+Dieses Problem wird im Curiosity and Exploration Inventory (Kashdan, Rose
+& Fincham, 2004) vermieden, das ebenfalls in einer deutschen Übersetzung
+vorliegt (Renner, 2006c). Es besteht aus nur sieben Items, die auf die Subskalen
+Exploration (4 Items) und Absorption (3 Items) aufgeteilt sind (s. Tab. 4). Die Items
+der Subskala Exploration passen gut zu einer breit angelegten Informationssuche
+zu unterschiedlichen Allgemeinwissensfragen, während die Subskala Absorption
+eher auf eine Vertiefung von Wissen hindeutet, die als spezielles Interesse an
+einem Themengebiet gedeutet werden könnte. Die deutsche Version wurde
+bereits von Renner (2006a) und Mussel, Spengler, Litman und Schuler (2012)
+eingesetzt und in Beziehung zu anderen Neugiermaßen und exteren Kriterien
+gesetzt. Bei Kashdan, Rose und Fincham ist zudem eine ausführliche
+Beschreibung der Skalenkonstruktion zu finden.
+2.3 Abhängige Maße
+2.3.1 Allgemeinwissen
+Für die Testung von Allgemeinwissen sind sowohl Multiple-Choice-Tests als
+auch Tests mit offenem Antwortformat gebräuchlich. Während ein Multiple-Choice-
+Test lediglich das Wiedererkennen von der korrekten Lösung verlangt, erfordert
+ein offenes Antwortformat die selbständige Reproduktion von Wissen (Hoffmann &
+Engelkamp, 2013). Noch ist bei Multiple-Choice-Tests Raten möglich (wenn auch
+über die Berücksichtigung der Ratewahrscheinlichkeit statistisch kontrollierbar),
+während offene Antworten kaum zufällig gegeben werden können (Marcus, 2012).
+Ein Test mit offenem Antwortformat schien daher geeigneter, um das
+Allgemeinwissen abzuprüfen.
+Für die Erhebung des Allgemeinwissens wurde die Kurzfassung der
+deutschen Version des General Knowledge Tests (GKT-D) verwendet (Lynn et al.,
+2004). Dieser besteht aus 95 offenen Wissensfragen, die 17 unterschiedlichen
+Wissensdomänen zugeordnet sind. Pro Wissensgebiet werden zwischen 4 und 11
+Fragen gestellt. Verschiedene Versionen dieses Fragebogens und seines
+englischsprachigen Vorbilds (Irwing et al., 2001) wurden (unter Berücksichtigung
+einer unterschiedlichen Teilmenge der Wissensdomänen und an Fragen pro
+Wissensdomäne) in den letzten Jahren eingesetzt, um die faktorielle Struktur des
+Allgemeinwissens (z.B Lynn et al., 2004), das Verhältnis von Allgemeinwissen und
+Intelligenz (z.B. Chamorro-Premuzic, Furnham & Ackerman, 2006) und
+Geschlechtsunterschiede im Allgemeinwissen (z.B. Lynn & Irwing, 2002, Lynn et
+al, 2004) zu untersuchen.
+Eine besondere Herausforderung stellte die Umsetzung des GKT-D in eine
+Onlineumfrage dar: Wer für das Absolvieren des Tests schon im Internet
+eingeloggt ist, dem stehen Wikipedia und andere Recherchemöglichkeiten
+unmittelbar zur Verfügung. Was für die Informationssuche zwischen den Umfragen
+nur positiv bewertet werden kann, bedeutete während den Umfragen eine kaum
+kontrollierbare Störquelle. Um möglichst weitgehend sicherzustellen, dass die
+Teilnehmer während der Bearbeitung keine Lösungen nachschlugen, wurden sie
+instruiert, während der Bearbeitung weder Hilfsmittel zu nutzen, noch sich von
+anderen helfen zu lassen. Jede Fragenseite enthielt zwischen vier und sieben
+Fragen eines Wissensgebiets und war mit einer Zeitbegrenzung versehen: Pro
+Frage standen 12 Sekunden zur Verfügung, danach wurden die Eingaben
+automatisch abgeschickt, was die Möglichkeit der Teilnehmer zu intensiver
+Informationssuche einschränkte. Die Zeit pro Frage wurde dabei über einen
+Vortest mit wenigen Teilnehmern ermittelt, die sich in der Vertrautheit mit dem
+Computer und ihrer Tippgeschwindigkeit deutlich unterschieden. Eine
+Zwischenseite ohne Zeitbegrenzung, die lediglich den aktuellen Fortschritt im
+Fragebogen konstatierte, trennte jeweils zwei Fragenseiten, so dass die
+Teilnehmer bei Bedarf die Möglichkeit zum Pausieren hatten (s. Anhang A).
+Zur Bewertung des Allgemeinwissens zu den Umfragezeitpunkten T1 und T2
+erhielten die Teilnehmer für jede korrekte Antwort einen Punkt, für falsche oder
+fehlende Antworten keinen Punkt. Aus der ungewichteten Summe der korrekten
+Antworten jedes Teilnehmers ergaben sich die Scores für das Allgemeinwissen zu
+den Zeitpunkten T1 und T2.
+2.3.2 Verbesserung des Allgemeinwissens
+Wie stark sich das Allgemeinwissen einer Person zwischen den beiden
+Umfragen verbessert, hängt von unterschiedlichen Parametern ab: Neben der
+durch Neugier ausgelösten Anstrengung, die richtige Lösung zu finden, der
+Verfügbarkeit von Informationen und deren Qualität, hat selbstverständlich auch
+die Anzahl der bereits in der ersten Umfrage gegebenen korrekten Antworten
+einen Einfluss. Es scheint jedoch wahrscheinlicher, dass die Verbesserung durch
+die Gedächtniskapazität der jeweiligen Person und ihre Motivation zur Suche nach
+Antworten als durch die Anzahl der noch verbesserbaren Antworten begrenzt ist.
+Dementsprechend wurde die Verbesserung des Allgemeinwissens nicht in
+Abhängigkeit von dem zum Zeitpunkt T1 erreichten Score als Verhältniswert
+operationalisiert, sondern über die Anzahl der zum Zeitpunkt T2 gegenüber T1
+verbesserten Antworten.
+Ein naheliegender Ansatz zur Einschätzung der Verbesserung des
+Allgemeinwissens wäre die Bildung der Differenz zwischen den Summenscores
+des Allgemeinwissens zu den Zeitpunkten T1 und T2. Allerdings zeigte die
+Analyse der einzelnen Antworten, dass zwischen den Zeitpunkten T1 und T2 nicht
+nur Verbesserungen vorkamen, sondern auch zahlreiche Verschlechterungen:
+zum Zeitpunkt T1 wurde eine korrekte Antwort gegeben, zum Zeitpunkt T2 keine
+oder eine falsche Antwort (M = 1.85; SD = 3.33). Eine solche Verschlechterung
+kann nicht auf vergleichbare Art in Verbindung mit Neugier gebracht werden wie
+eine Verbesserung – gering ausgeprägte Neugier führt schließlich nicht dazu,
+dass einmal gewusste Antworten wieder vergessen werden. Vielmehr kommen
+unterschiedliche Erklärungsansätze für eine Verschlechterung in Frage:
+Eine Verschlechterung einer Antwort kann dadurch zustande kommen, dass
+eine Person zum Zeitpunkt T1 zwar die korrekte Antwort gegeben hat, sich dieser
+Antwort aber nicht sicher war. In Verbindung mit starker Neugier könnte das dazu
+führen, dass sie (a) darüber nachgedacht hat und dabei zu einer falschen Antwort
+gekommen ist, (b) jemanden gefragt hat, den sie als kompetent ansah, aber eine
+falsche Antwort bekommen hat oder (c) bei einer unzuverlässigen Quelle
+nachgeschlagen hat, aber subjektiv von der neuen (falschen) Antwort überzeugt
+ist. Bei geringer Neugier könnte sie dagegen (d) eine neue, ihr gleich
+wahrscheinlich erscheinende Antwort geben, ohne von dieser überzeugter zu sein
+als von ihrer ersten Antwort. Und schließlich könnte sie unabhängig von ihrer
+Neugier (e) unmotiviert sein, bei der zweiten Umfrage noch einmal dieselben
+Wissensfragen wie bei der ersten zu beantworten, was sich darin zeigt, dass sie
+keine oder falsche (unter Umständen sogar unsinnige) Antworten gibt.
+Sofern ein Teilnehmer in der zweiten Umfrage auf nur wenige Fragen
+schlechtere Antworten gab als in der ersten Umfrage, konnte anhand der
+Antworten nicht unterschieden werden, ob dieses Ergebnis durch fehlgeschlagene
+Informationssuche (a-c) oder durch Unschlüssigkeit (d) entstanden war. Solche
+Verschlechterungen mussten daher bei der Bewertung der Verbesserung des
+Allgemeinwissens neutral behandelt werden. Mangelnde Motivation bot sich
+dagegen vor allem in solchen Fällen als Erklärung an, wo sich in der zweiten
+Umfrage eine erhebliche Anzahl von Antworten verschlechtert hatte. Datensätze
+mit sechs und mehr Verschlechterungen wurden daher von der weiteren Analyse
+ausgeschlossen (s. Abschnitt 2.1.2).
+Da die Differenz der Summenscores zum Zeitpunkt T2 und T1 durch die
+zahlreichen Antwortverschlechterungen als Maß für die Verbesserung des
+Allgemeinwissens ungeeignet erschien, wurde stattdessen direkt die Anzahl der
+Antwortverbesserungen in der Umfrage zum Zeitpunkt T2 gegenüber der zum
+Zeitpunkt T1 herangezogen, während die Antwortverschlechterungen ignoriert
+wurden.
+2.4 Kontrollfragen
+Zur besseren Einschätzbarkeit der Antworten wurden die Teilnehmer danach
+befragt, ob sie zwischen den Umfragen Antworten nachgeschlagen oder andere
+danach gefragt hatten. Außerdem wurde auf einer fünfstufigen Likertskala
+erhoben, wie gewissenhaft sie die Umfragen ausgefüllt hatten. Datensätze von
+Personen, die sich hier auf den unteren drei Stufen einschätzen („nicht
+gewissenhaft“, „etwas gewissenhaft“, „einigermaßen gewissenhaft“), wurden
+gleich im ersten Bereinigungsschritt ausgeschlossen (s. Abschnitt 2.1.2). Lediglich
+diejenigen, die sich beim Ausfüllen der Umfragen als „gewissenhaft“ oder „sehr
+gewissenhaft“ bezeichneten, wurden weiter berücksichtigt.
+2.5 Untersuchungsablauf
+In der ersten Umfrage wurden die Teilnehmer zu Alter, Geschlecht und
+Bildungsniveau befragt und mussten anschließend den GKT-D beantworten. Am
+Ende der Umfrage wurden Sie zu einer Emailabfrage weitergeleitet. 24 Stunden
+später erhielten sie per Email die Einladung zur zweiten Umfrage und hatten bis
+zu 96 Stunden Zeit, diese zu beantworten. In der zweiten Umfrage wurde erneut
+der GKT-D erhoben, ohne dass dies den Teilnehmenden vorher angekündigt oder
+für sie anderweitig zu erschließen war. Um den Fokus der Untersuchung nicht zu
+früh salient zu machen, folgte die Erhebung der Neugierskala erst nach
+Beendigung der zweiten Erhebung des GKT-D. Der darauffolgende
+Achtsamkeitsfragebogen wurde für eine andere Bachelorarbeit erhoben und wird
+in dieser Untersuchung nicht weiter berücksichtigt. Schließlich folgten
+Kontrollfragen zu Informationssuche und zur Gewissenhaftigkeit beim Ausfüllen
+der Umfrage. Die vollständigen Fragebögen einschließlich Instruktionen finden
+sich im Anhang B.
+2.6 Datenauswertung
+Die Items des Curiosity and Exploration Inventory verlangen
+Selbsteinschätzungen auf vierstufigen Likertskalen. Vor der Auswertung wurden
+die Abstufungen auf die Ziffern 0 („stimmt nicht“), 1 („stimmt kaum“), 2 („stimmt
+eher“) und 3 („stimmt genau“) recodiert und Item 4 invertiert. Anschließend wurden
+Summenscores für die Subskalen Exploration und Absorption gebildet sowie eine
+Gesamtsumme der Skala. Für die Daten ist entsprechend der in der Psychologie
+vorherrschenden Meinung Intervallskalenniveau anzunehmen.
+Das Allgemeinwissen wurde anhand der Häufigkeiten richtiger bzw.
+verbesserter Antworten zu den 95 Fragen des GKT-D erhoben. Diese Daten
+haben Absolutskalenniveau.
+Da alle interessierenden Variablen metrisches Skalenniveau haben und
+Zusammenhänge dazwischen erforscht werden sollten, boten sich zur optimalen
+Ausschöpfung der erhobenen Informationen Regressionsanalysen an.
+Zur Auswertung der Daten habe ich die Statistiksoftware IBM SPSS Statistics
+21 verwendet.
+3 Ergebnisse
+Der GKT-D hatte sich in früheren Untersuchungen (Neidhardt-Wilberg, 2005)
+als relativ schwierig für untersuchte Schüler- und Studentenstichproben erwiesen.
+Ein ähnliches Ergebnis zeigte sich auch in einem mit früheren Ergebnissen
+vergleichbaren Score zum Zeitpunkt T1 bei der vorliegenden Untersuchung (M =
+41.79, SD = 13.49).
+Beim Retest des Allgemeinwissens innerhalb weniger Tage ist schon
+aufgrund der in dieser Untersuchung unterstellten durch Neugier bedingten
+Informationssuche keine Stabilität zu erwarten. Zum Zeitpunkt T2 hatte sich der
+durchschnittliche Score um mehr als sechs Punkte (knapp eine halbe
+Standardabweichung) verbessert (M = 48.14, SD = 14.58).
+Die interne Konsistenz der Gesamtskala war zu beiden
+Erhebungszeitpunkten gut (T1: α = .92; T2: α = .93). Auffällig ist, dass nach den
+Kriterien, nach denen die Items bei der Konstruktion der Kurzversion GKT-D
+ausgewählt wurden (Lynn et al., 2004), nämlich Ausschluss von Items mit sehr
+hoher (> .80) oder sehr niedriger (< .20) Schwierigkeit oder geringem
+Zusammenhang mit dem Gesamtscore (< .30), mehr als die Hälfte der Items
+ausgeschlossen worden wären (s. Anhang B). Verstünde man die vorliegende
+Untersuchung als Kreuzvalidierung für die Skalenbildung, so müsste dieses
+Experiment damit wohl als gescheitert angesehen werden. Es ist aber denkbar,
+dass die besondere Zusammensetzung der Stichprobe, Veränderungen des
+Allgemeinwissens über die Zeit oder die noch zu schildernden Schwierigkeiten bei
+der Auswertung des GKT-D (s. Abschnitte 4.1.3 und 4.2.2) für diesen Befund
+verantwortlich sind.
+Die Auffälligkeiten der Itemschwierigkeiten einzelner Items und deren
+Konsistenz mit der Gesamtskala ließen sich nicht in einen systematischen
+Zusammenhang mit den inhaltlichen Schwierigkeiten bei der Auswertung des
+GKT-D bringen: Probleme mit der Auswertung gab es sowohl bei Items mit
+extremer Schwierigkeit oder geringem Zusammenhang mit dem Gesamtscore als
+auch bei in dieser Hinsicht völlig unauffälligen Items. Da es in der vorliegenden
+Arbeit nicht um die Konstruktion eines neuen Allgemeinwissensfragebogens geht,
+sondern lediglich um den Einsatz eines bereits erprobten Instruments, wurden
+keine Items aus der weiteren Analyse ausgeschlossen.
+Die Annahme, dass die Anzahl der Antwortverbesserungen von Zeitpunkt T1
+zum Zeitpunkt T2 kaum von der Anzahl der korrekten Antworten zum Zeitpunkt T1
+abhängt, konnte gestützt werden, da der Score zum Zeitpunkt T1 und die
+Verbesserung nahezu unkorreliert waren, r(356) = -.01, p = .87, nicht signifikant
+(n.s.). Die Operationalisierung der Verbesserung ohne Bezug auf die Anzahl der
+Verbesserungsmöglichkeiten (zu Zeitpunkt T1 noch nicht gelöste Aufgaben)
+erwies sich folglich als angemessen.
+Einige wenige Datensätze waren unvollständig in Bezug auf einzelne Items
+des Curiosity and Exploration Inventory. Das betraf die Subskala Exploration in
+drei Fällen und die Subskala Absorption in fünf weiteren Fällen, so dass die
+Gesamtskala insgesamt achtmal betroffen war. Fälle mit fehlenden Werten
+wurden listenweise aus den einzelnen Analysen ausgeschlossen, so dass sich
+teilweise leicht variierende Stichprobengrößen ergeben.
+3.1 Neugier als Prädiktor des Allgemeinwissens
+Der Summenscore der Neugier erwies sich als signifikanter Prädiktor des
+Allgemeinwissensscores zum Zeitpunkt T1, b = 0.96, t(347) = 4.07, p < .001, und
+erklärt einen signifikanten Anteil der Varianz des Kriteriums, R2 = .05, F(1,358) =
+16.56, p < .001. Gleiches gilt für den Allgemeinwissensscore zum Zeitpunkt T2, b
+= 1.21, t(347) = 4.75, p < .001 mit R2 = .06, F(1,358) = 22.53, p < .001. Weder
+Kolmogorov-Smirnov-Anpassungstest (K-S-Test, s. Tabelle 5) noch Histogramm
+und P-P-Plot geben Hinweise auf Verletzung der Normalverteilungsannahme für
+die Summenscores zu T1 und T2.
+Hypothese (1) konnte somit bestätigt werden.
+3.2 Neugier als Prädiktor für die Verbesserung des
+Allgemeinwissens
+Der Summenscore der Neugier erwies sich auch als signifikanter Prädiktor
+der Anzahl der Verbesserungen von Zeitpunkt T1 zu T2, b = 0.28, t(347) = 2.70, p
+< .001, und erklärt wiederum einen signifikanten Anteil der Varianz des Kriteriums,
+R2 = .02, F(1, 358) = 7.26, p = .007.
+Der signifikante K-S-Test sowie Histogramm und P-P-Plot geben deutliche
+Hinweise auf eine Verletzung der Normalverteilungsannahme. Das Ergebnis der
+Regressionsanalyse konnte jedoch per Bootstrap mit m = 1 000 Ziehungen
+abgesichert werden, 95%-Konfidenzintervall für b = [0.08; 0.50].
+Hypothese (2) konnte ebenfalls bestätigt werden.
+3.3 Vorhersagekraft von Exploration und Absorption
+Die Subskalen Exploration und Absorption korrelierten mäßig miteinander,
+r(348) = .32, p < .001. Für die gemeinsame Aufnahme in ein Regressionsmodell
+ergaben sich daraus aber keine Probleme wegen Multikollinearität (VIF = 1.12).
+Die Summenscores der Subskalen wurden daher zunächst einzeln, dann in
+Kombination in die Regression eingegeben.
+Der Summenscore der Absorption verfehlte alleine als Prädiktor für die
+Anzahl der Verbesserungen von Zeitpunkt T1 zu T2 das Signifikanzniveau, b =
+0.35, t(353) = 1.94, p = .054, n.s. Der Summenscore der Exploration erwies sich
+dagegen alleine als signifikanter Prädiktor, b = 0.36, t(351) = 2.35, p = .02. Bei
+schrittweiser Aufnahme wurde folgerichtig nur der Summenscore der Exploration
+aufgenommen, der Summenscore der Absorption dagegen ausgeschlossen,
+t(346) = 1.19, p = .23 (s. Tab. 6).
+Da wie in 3.2 K-S-Test, P-P-Plot und Histogramm auf eine Verletzung der
+Normalverteilungsannahme sprachen, wurden die Ergebnisse per Bootstrap
+abgesichert mit m = 1 000 Ziehungen abgesichert.
+Um zu überprüfen, ob sich die Korrelationen der beiden Subskalen der
+Neugier mit dem Allgemeinwissen signifikant unterscheiden, überprüfte ich die
+Daten mit der von Field (2013a, S. 287) vorgeschlagenen Syntax für den Vergleich
+von abhängigen Korrelationen (Field, 2013b). Wie bei den geringen Unterschieden
+zwischen den Subskalen in der einfachen Regression nicht anders zu erwarten,
+verfehlte der Unterschied der Korrelationen bei weitem das Signifikanzniveau,
+Δrexp-abs = .028, t(347) = , p = .67, n.s.
+Insgesamt stellte sich die Subskala Exploration erwartungsgemäß als der
+bessere Prädiktor dar, doch die Unterschiede waren zu gering, um als überzufällig
+bewertet zu werden. Hypothese (3) konnte demnach nicht bestätigt werden.
+4 Diskussion
+Im Alltag werden Neugier und Allgemeinwissen ganz selbstverständlich
+miteinander in Zusammenhang gebracht. Die vorliegende Untersuchung
+untermauert diese Einschätzung durch empirische Befunde. Die geringen
+Effektstärken und konzeptionelle Unklarheiten bedürfen jedoch der weiteren
+Diskussion, Überprüfung und Theoriebildung.
+4.1 Schwächen des Untersuchungsdesigns
+Bislang fehlten publizierte Studien zum unmittelbaren Zusammenhang
+zwischen epistemischer Neugier und Allgemeinwissen. Mit dem Design dieser
+Untersuchung musste ich also Neuland betreten. Dabei erwiesen sich einige
+Entscheidungen als ungünstig. Sie sollten bei künftigen Untersuchungen, wenn
+möglich, zur Erhöhung der Aussagekraft vermieden werden sollten.
+4.1.1 Stichprobe und Selbstselektion
+Für diese Untersuchung wurden sowohl Studenten der FernUniversität in
+Hagen als auch Personen aus meinem persönlichen Umfeld und dem meines
+Kommilitonen Michael Schäfer rekrutiert sowie von Betreuern und weiteren
+Kommilitonen. Die Studierenden der FernUniversität sind eine deutlich weniger
+homogene Gruppe als übliche Studierendenstichproben an Präsenzuniversitäten,
+was sich unter anderem am höheren Durchschnittsalter und an einem
+vergleichsweise hohen Anteil von beruflich qualifizierten Studenten ohne Abitur
+zeigt, andererseits aber auch an vielen Studierenden, die bereits ein Erststudium
+erfolgreich absolviert haben. Insgesamt ist davon auszugehen, dass sie im
+Vergleich zur Gesamtbevölkerung stärker an Wissen und Bildung interessiert sind.
+Auch in unserem persönlichen Umfeld waren sicherlich tendenziell eher Personen
+mit einer gewissen Bildungsnähe angesprochen.
+Zudem muss berücksichtigt werden, dass Personen, die ihr eigenes
+Allgemeinwissen als eher gering einschätzen, sich vermutlich mit geringerer
+Wahrscheinlichkeit durch die Untersuchung angesprochen fühlten und, wenn sie
+überhaupt damit begannen, eher geneigt waren, die Umfrage vorzeitig
+abzubrechen. Das deutet sich auch darin an, dass zwar 1359 Personen die erste
+Umfrage begannen, aber nur 581 (43%) sie auch abschlossen. 456 Personen
+(34% derjenigen, welche die Umfrage aufgerufen hatten) brachen zwischen der
+Willkommensseite mit der anfänglichen Beschreibung der Untersuchung und der
+zweiten Fragenseite des GKT-D ab, also zu einem Zeitpunkt, als sich für sie
+abzeichnete, dass sie viele schwierige Wissensfragen beantworten sollten.
+Abgeschreckt dürften dabei eher diejenigen gewesen sein, die subjektiv wenig
+wussten.
+Neugierverhalten kann in leistungsorientiertes Handeln übergehen, wenn
+Freude über gelungene Unsicherheitsreduktion oder Ärger über deren Misslingen
+in den Vordergrund treten (Schneider, 1996). Angst und Neugier stehen dabei in
+einem antagonistischen Verhältnis. Entsprechend könnten bei Personen mit
+niedriger Wirksamkeitserwartung in Bezug auf das Allgemeinwissen (Angst vor
+negativen Emotionen als Resultat der Teilnahme, beispielsweise aufgrund
+schlechter Erfahrung, also ungenügendem Allgemeinwissen in der Vergangenheit)
+die Neugier gehemmt worden sein. Der Einfluss von Neugier und Allgemeinwissen
+dürfte umso stärker ins Gewicht gefallen sein, da den nicht-studentischen
+Teilnehmern keinerlei externe Anreize für die Teilnahme geboten wurden und den
+Psychologiestudierenden zahlreiche alternative Umfragen zum Erwerb von
+Versuchspersonenstunden zur Auswahl standen.
+Interessant ist in diesem Zusammenhang, dass in der vorliegenden
+Stichprobe die Neugier durchschnittlich mit dem Alter anstieg, r(348) = .26, p <
+.001. Das steht im Widerspruch zu Schneider (1996), der postuliert, dass Neugier
+mit dem Alter abnimmt (und durch Interesse ersetzt wird). Der ungewöhnliche
+Befund bei meiner Untersuchung könnte aber einfach als Effekt der
+Selbstselektion erklärbar sein: Ältere Teilnehmer waren möglicherweise nur bei
+besonders ausgeprägter Neugier zur Teilnahme bereit.
+Die realisierte Stichprobe dürfte also sowohl in Bezug auf das
+Allgemeinwissen als auch auf die Neugier im Vergleich zur Gesamtpopulation
+überdurchschnittliche Werte aufweisen, und zwar nicht nur wegen der zweifellos
+existierenden Verzerrung in Bezug auf diese Variablen bei der Gruppe der zur
+Teilnahme eingeladenen Personen im Vergleich zur Gesamtpopulation, sondern
+auch und vor allem deshalb, weil die Entscheidung für die Teilnahme an der
+Untersuchung mutmaßlich nicht unabhängig von den Ausprägungen beider
+Merkmale war.
+Die Varianzeinschränkung von Prädiktor und Kriterium führt gemäß Schmidt
+und Hunter (2001) zu einer systematischen Unterschätzung von Effekten. Insofern
+stellt sie für sich genommen kein gravierendes Problem der internen Validität der
+vorliegenden Untersuchung dar, sondern kann im Gegenteil sogar als ein
+möglicher Grund für die geringen vorgefundenen Effektstärken herangezogen
+werden. Da jedoch die Zufallsauswahl der Stichprobe dadurch gravierend
+beeinträchtigt ist, müssen Abstriche an die externe und interne Validität der
+Untersuchung gemacht werden.
+Auch wenn es für zukünftige Untersuchungen zum selben Zusammenhang
+wünschenswert wäre, weniger verzerrte Stichproben zu erhalten und vor allem die
+Konfundierung von Einflussgrößen der Teilnahmebereitschaft mit Neugier und
+Allgemeinwissen zu reduzieren, scheint das mit freiwilligen Umfrageteilnehmern
+nur schwer realisierbar.
+4.1.2 Onlineerhebung
+Zu den speziellen Problemen von Onlineerhebungen zählt man heute vor
+allem die Möglichkeit der Mehrfachteilnahme und die mangelnde Kontrolle über
+die Durchführung (Buchanan, 2007). Beides ist im Zusammenhang dieser
+Untersuchung problematisch:
+Im Rahmen des Matchings zeigten sich zwei Fälle von doppelten Keys, die
+aus dem Pseudonymisierungscode gewonnen worden waren. Die nähere
+Betrachtung der entsprechenden Datensätze zeigte, dass jeweils eine der beiden
+Umfragen in sehr kurzem Abstand mit demselben Code zweimal ausgefüllt
+worden war – mutmaßlich von derselben Person. Die Datensätze wurden von der
+Analyse ausgeschlossen, aber die Annahme ist naheliegend, dass das auch in
+weiteren Fällen vorgekommen sein könnte, nur eben unter Verwendung eines
+anderen Codes. Auch die zwölf Datensätze, zu denen nach dem Matching keine
+Daten vom ersten Umfragezeitpunkt vorlagen, sind nur durch versehentliche oder
+absichtliche Falscheingabe des Codes zu erklären, da nur diejenigen eine
+Einladung zur zweiten Umfrage erhielten, welche die erste vollständig
+abgeschlossen hatten. Es ist insgesamt also nicht auszuschließen, dass
+Datensätze in der Untersuchung verblieben sind, bei denen die entsprechenden
+Personen unter anderen Codes zusätzliche GKT-D-Durchgänge absolviert haben
+– eine Verfälschung, welche die interne Validität der Untersuchung einschränkt.
+Darüber hinaus gab es keinerlei Möglichkeit zu kontrollieren, welcher
+Hilfsmittel sich die Teilnehmer während der Umfrage bedient haben. Nur durch die
+Instruktion wurde versucht, dem Einsatz von Hilfsmitteln vorzubeugen. Die
+Zeitbeschränkung auf den Frageseiten erschwerte Manipulationen, doch das
+gemeinsame Ausfüllen durch mehrere Personen oder rasches Nachschlagen
+können nicht ausgeschlossen werden. Auch gibt es unter Unipark keine
+Möglichkeit, das Zurückblättern innerhalb der Umfrage mit Hilfe der Browser-
+Navigation zu verhindern. Alle Ergebnisse dieser Untersuchung stehen also unter
+dem Vorbehalt möglicher Manipulationen durch die Teilnehmer.
+Neben den Nachteilen der Onlineuntersuchung sollten aber auch die Vorteile
+nicht unbeachtet bleiben: Eine Verbesserung des Allgemeinwissens zwischen den
+beiden Umfragen ist nicht nur abhängig von der Neugier eines Teilnehmers,
+sondern auch davon, welche Informationsquellen ihm zur Verfügung stehen. Im
+Internet sind über Wikipedia oder eine Suchmaschine zu allen im GKT-D
+gestellten Fragen mit minimalem Aufwand Antworten zu finden. Auch die dazu
+notwendigen Vorkenntnisse (Informationskompetenz im Internet) sind relativ
+gering und dürften bei einem Großteil der grundsätzlich für eine Onlinestudie
+rekrutierbaren Population vorauszusetzen sein. Somit war die Gefahr einer
+Verzerrung der Ergebnisse durch Unzugänglichkeit von Informationen, einen
+unverhältnismäßig hohen oder für die Teilnehmer unverhältnismäßig
+unterschiedlichen Rechercheaufwand gering.
+Insgesamt wären für Replikationen der Untersuchung strenger kontrollierbare
+Durchführungsbedingungen wünschenswert, gleichzeitig sollte aber auch der freie
+Zugang zu geeigneten Wissensquellen nach Möglichkeit für alle Teilnehmer
+sichergestellt sein.
+4.1.3 Instruktion und Auswertung
+In der Planungsphase der Erhebung erschien es wesentlich, möglichen
+Tendenzen der Teilnehmer entgegenzuwirken, sich bei der Beantwortung der
+Allgemeinwissensfragen des GKT-D unvorhergesehener Hilfsmittel zu bedienen.
+Sinnvoll schien dabei vor allem eine Zeitbegrenzung auf den Fragenseiten des
+GKT-D zu sein. Im Vortest zeigte sich allerdings, dass der Zeitdruck zu Tipp- und
+Schreibfehlern führte, die bei einigen Testern wiederum den Wunsch auslösten,
+sie zu korrigieren und dazu über die Browsernavigation eine Seite
+zurückzublättern. So ein Vorgehen hätte die Zeitbegrenzung vollkommen
+ausgehebelt. Um die Gefahr zu entschärfen, wurde in der Instruktion zum GKT-D
+ausdrücklich darauf hingewiesen, dass Buchstabendreher, Rechtschreib- und
+Tippfehler nicht dazu führen, dass eine ansonsten korrekte Antwort als falsch
+gewertet wurde. Darüber wurden bei Fragen nach Personen explizit nur die
+Nachnamen gefordert, was gleichermaßen den Zeitbedarf insgesamt als auch die
+Unterschiede im Zeitbedarf zwischen den Teilnehmern (beispielsweise durch
+unterschiedliche Tippkenntnisse oder durch unterschiedliche Vertrautheit mit dem
+Computer) senken sollte.
+Ob diese Instruktion bewirkte, dass keine oder zumindest weniger
+Teilnehmer im GKT-D zurückblätterten, lässt sich nicht sicher beantworten. Sicher
+ist allerdings, dass sie zu gravierenden Schwierigkeiten bei der Auswertung führte:
+Ob einer der zahlreichen Fehler als geringfügiger Schreib- oder Tippfehler oder als
+falsche Antwort zu werten war, war häufig eine Interpretationsfrage. Um die
+Entscheidungen zumindest nachvollziehbar zu machen, habe ich eine Reihe von
+allgemeinen Regeln aufgestellt, nach denen ich die Entscheidungen getroffen
+habe (s. Abb. 2).
+Über die bisher geschilderten Probleme hinaus zeigte die sorgfältige
+Recherche zu nach der Musterlösung falschen Antworten, dass etliche Teilnehmer
+in bestimmten Wissensdomänen über Expertise verfügten und ihre Antworten
+richtig waren, manchmal richtiger als die als richtig vorgesehenen Antworten. Hier
+zeigt sich das Problem, dass korrektes Wissen auf der Wissensebene des
+Allgemeinwissens auf der Ebene fachlicher Expertise unvollständig oder gar falsch
+ist (s. Anhang C). Da sich keine systematischen Verbindungen zu Auffälligkeiten in
+der statistischen Itemanalyse feststellen ließen, habe ich auf den Ausschluss von
+Items auf Grundlage dieser Recherchen verzichtet und lediglich zusätzliche
+Antworten als korrekt bewertet.
+Insgesamt habe ich die Antworten eher großzügig bewertet. Für die zentrale
+Hypothese (s. Abschnitt 1.4(2)) eines Zusammenhangs zwischen Neugier und der
+Verbesserung des Allgemeinwissens stellt das eine konservative
+Herangehensweise dar, welche die Effekte eher unter- als überschätzt: Wer
+bereits zum ersten Umfragezeitpunkt korrekt geantwortet hat, konnte sich nicht
+mehr verbessern, die Verbesserungsmöglichkeiten waren eingeschränkt. Lag
+dagegen eine Verbesserung zum zweiten Umfragezeitpunkt vor, so kann das
+unabhängig von der Vollständigkeit der Antwort als Wissenszuwachs gewertet und
+auf Neugier attribuiert werden.
+Insgesamt kann sicherlich über die Entscheidungsregeln und
+Einzelfallentscheidungen diskutiert werden. Die Auswertungsobjektivität ist
+fragwürdig.
+4.2 Instrumente und Operationalisierungen
+Eine empirische Untersuchung ist nur so gut wie die Instrumente, die sie
+einsetzt. Reliabilität ist eine wesentliche Voraussetzung für Validität, also stellen
+unreliable Instrumente auch die Validität in Frage. Neben der Reliabiltät spielt aber
+auch die Passung zwischen Fragestellung und Instrument eine wichtige Rolle.
+Nicht alle Probleme mit den gewählten Erhebungsinstrumenten sind im
+Vorfeld absehbar. Insbesondere in Forschungsfeldern, in denen noch keine
+allgemein anerkannten Standards gelten (wie in der Neugierforschung), müssen
+zudem Vor- und Nachteile gegeneinander abgewogen werden. Nicht immer
+erweist sich die anfänglich getroffene Entscheidung im Rückblick als sinnvoll. In
+anderen Fällen treten Schwierigkeiten erst in bestimmten Untersuchungskontexten
+auf oder werden erst in diesen deutlich sichtbar.
+Die Probleme und offenen Fragestellungen, die im Laufe der vorliegenden
+Untersuchung auftauchten, sollen hier kurz diskutiert werden.
+4.2.1 Das Curiosity and Exploration Inventory
+Das Curiosity and Exploration Inventory ist ein solide konstruiertes
+Instrument, dessen Konstruktionsprozess umfassend dokumentiert wurde
+(Kashdan et al., 2004). Dennoch stellte es nicht den Endpunkt der Entwicklung
+dar: Aufgrund verschiedener Probleme des Inventars wurde inzwischen das
+Curiosity and Exporation Inventory II entwickelt (Kashdan et al., 2009). Zu den
+Gründen, welche die Autoren für die Neuentwicklung anführen, zählt die im
+Vergleich geringere Vorhersageleistung der Subskala Absorption. Eine
+Alternativerklärung für das bessere Abschneiden der Subskala Exploration könnte
+also auch einfach in der unterschiedlichen Vorhersagequalität der Subskalen
+liegen. Möglicherweise sprach die Subskala Absorption außerdem doch
+spezifischere Objekte der Neugier an als die Subskala Exploration, und minderte
+damit ihre Anwendbarkeit für auf Allgemeinwissen gerichtete Neugier. Auch die
+oben angeführte Attribution der Unterschiede auf Interesse (Absorption) oder
+Exploration erscheint dadurch zusätzlich zweifelhaft. Unter Umständen hätten
+geeignetere Subskalen signifikante Unterschiede detektiert.
+Das Curiosity and Exploration Inventory II versucht, einige der
+angesprochenen Probleme zu beheben. Zudem legten die Autoren Wert darauf,
+stärker als im ursprünglichen Curiosity and Exploration Inventory die ganze Breite
+des Neugierkonstrukts zu erfassen (Kashdan et al., 2009). Das bringt allerdings
+mit sich, dass die Items der neuen Skala zum Teil wiederum kaum auf
+Allgemeinwissen als Objekt der Neugier passen (s. Tab. 7). Noch dazu scheinen
+sich einige Items (beispielsweise Item 5) eher auf die Bereitschaft zur Teilnahme
+an der vorliegenden Untersuchung beziehen zu lassen als auf das
+Allgemeinwissen. Das deutet unabhängig von der Skala nochmals darauf hin,
+dass die Selbstselektion der Teilnehmer durch die qualitative (Objektbezug) und
+quantitative Ausprägung ihrer Neugier beeinflusst gewesen sein dürfte (s.
+Abschnitt 4.1.1).
+Hinzu kommt, dass bislang keine deutsche Fassung des Curiosity and
+Exploration Inventory II existiert. Damit hätte diese Skala die Kriterien für die
+Auswahl bei der vorliegenden Untersuchung nicht erfüllt.
+Wenn die Neugierforschung mit Bezug zum Allgemeinwissen weiter verstärkt
+werden soll, erscheint es daher sinnvoll, entweder eine spezielle Skala mit
+direktem Objektbezug zum Allgemeinwissen zu entwickeln oder aber eine breite
+Neugierskala, deren Items keinerlei Objektbezug ausschließen. Letzteres stellt
+sich allerdings mit Blick auf bisher vorliegende Skalen als ausgesprochen
+schwieriges Vorhaben dar, weshalb die Entwicklung einer Neugierskala mit
+speziellem Allgemeinwissensbezug die Forschung auf kurze bis mittelfristige Sicht
+womöglich stärker voranbringen könnte.
+4.2.2 Der General Knowledge Test
+In den meisten Untersuchungskontexten zum Allgemeinwissen erscheint ein
+Retest innerhalb kurzer Zeit kaum sinnvoll. Schließlich ist Stabilität nicht zu
+erwarten, sondern eine Leistungssteigerung durch zwischenzeitlichen
+Wissenserwerb, wie er in der vorliegenden Studie untersucht wird. Die zweimalige
+Vorlage des GKT-D innerhalb weniger Tage stellt also eine Ausnahme dar, die
+einige bisher offenbar weitgehend übersehene Probleme der
+Allgemeinwissenstestung deutlich werden ließ, die vermutlich zusammenhängen
+und in ihrer Interaktion zu unvorhersehbaren Ergebnissen führen können.
+Da es in der vorliegenden Untersuchung nicht um die Testung von
+Allgemeinwissen, sondern um den Zusammenhang zwischen Neugier und
+Allgemeinwissen geht, sollen die Kritikpunkte hier nur kurz angedeutet werden.
+ Raten: Die Wahrscheinlichkeit von Zufallslösungen wird bei offenem
+Antwortformat als sehr gering angesehen (s. Marcus, 2012). Tatsächlich
+ergeben sich jedoch Indizien, dass teilweise mit minimalem Wissen
+(„Picasso ist ein berühmter Maler, also wird er schon irgendwo die Lösung
+sein!“) gute Rateerfolge erzielt werden konnten. Das spiegelt sich auch in
+Äußerungen einiger von mir persönlich rekrutierter Teilnehmerinnen wider,
+die ihre Testleistung eher auf Raten als auf Wissen attribuierten.
+ Tiefe des Wissens: Damit verbunden ist die Frage danach, welche Tiefe
+von Wissen getestet werden soll – eine normative Entscheidung der
+Testenden! Bei vielen Fragen des GKT-D scheint die Auswertung falscher
+und richtiger Antworten Hinweise zu geben, dass ein sehr seichtes Wissen
+getestet wird und unverbundene Einzelfakten zur Beantwortung
+ausreichen. Auch diese Einschätzung wird durch Reaktionen der
+Teilnehmenden gestützt. Offen bleibt, ob dieses Wissen seinem Besitzer
+tatsächlich einen Nutzen bringt. Einen ganz anderen Ansatz, nämlich
+„literacy“ (= auf Alltagsprobleme anwendbares Wissen) verfolgt
+beispielsweise der PISA-Test (Brake, 2003).
+ Wissen und fluide Intelligenz: Furnham und Chamorro-Premuzic (2006)
+stellten fest, dass fluide Intelligenz 10% der Varianz des Allgemeinwissens
+(auch dort getestet mit einer englischsprachigen Version des GKT) erklärt.
+Die Analyse der in der vorliegenden Untersuchung von den
+Teilnehmenden gegebenen Antwort lässt vermuten, dass diese fluide
+Intelligenz auch in Problemlösekompetenz für die Beantwortung der
+Fragen des GKT liegen könnte. Provokant formuliert, könnte man auch
+sagen: in der Kompetenz, selbst auf der Grundlage minimalen Wissens
+noch wahrscheinliche Antworten produzieren zu können.
+ Rationalität des Testverhaltens: Wenn korrekte Antworten einen Punkt
+ergeben und fehlende sowie falsche Antworten gleichermaßen keinen,
+dann liegt die rationale Strategie (die aber nicht unbedingt von jedem
+Teilnehmer erkannt wird) bei der Beantwortung der GKT-D darin,
+möglichst immer eine Antwort zu raten, selbst wenn nur eine minimale
+Chance besteht, dass sie korrekt sein könnte. Das Problem wird noch
+verstärkt, wenn für die Teilnehmer keine Konsequenzen mit dem
+Testscore verknüpft sind. Dann könnte ihr persönliches Ziel beispielsweise
+auch darin liegen, möglichst keine falschen Antworten zu geben. Es ist
+anzunehmen, dass sich die Teilnehmer je nach ihrer Persönlichkeit
+(beispielsweise Offenheit oder Gewissenhaftigkeit) darin unterscheiden,
+wie sicher sie sich einer Antwort sein müssen, um sie zu einzutragen.
+Die angeführten Vorbehalte gegen die operationale Validität der Testung von
+Allgemeinwissen durch den GKT-D beeinträchtigen natürlich auch die vorliegende
+Untersuchung.
+4.2.3 Detektion von Neugierverhalten
+Neugierverhalten konnte entsprechend meinem Untersuchungsdesign nur
+anhand einer Verbesserung in den Items des GKT-D entdeckt werden. Das
+bedeutet aber, dass die Neugier von Teilnehmenden, die bereits im ersten
+Testdurchgang eine richtige Antwort auf eine Frage gegeben hatten, nicht erkannt
+werden konnte. Dennoch steht es selbstverständlich auch im Einklang mit
+Berlynes (1954a) Definition von Neugier und dem dadurch ausgelösten Verhalten,
+wenn eine Person, die eine korrekte Antwort gegeben hatte, unsicher war,
+dadurch neugierig wurde und in der Folge Informationen zur Absicherung ihrer
+Antwort suchte. Die Annahme ist naheliegend, dass stärkere Effekte hätten
+detektiert werden können, wenn auch dieses Verhalten in die Untersuchung mit
+einbezogen worden wäre.
+4.3 Offene Fragen zum Einfluss von Neugier auf das
+Allgemeinwissen
+Trait-Neugier steht nach den Ergebnissen dieser Untersuchung in einem
+positiven Zusammenhang mit dem Allgemeinwissen und der Anzahl der
+Antwortverbesserungen zwischen den beiden Umfragezeitpunkten T1 und T2.
+Insgesamt scheint der Prozess der Neugierentstehung und Neugierwirkung auf die
+Informationssuche aber noch nicht hinreichend theoretisch durchdrungen zu sein,
+und die bisherigen empirischen Untersuchungen zum Thema der Neugier werfen
+nur Schlaglichter auf das Problemfeld. Gleichzeitig mit der Untermauerung eines
+Zusammenhangs zwischen Neugier und der Verbesserung des Allgemeinwissens
+wurden so eine Reihe neuer Fragen aufgeworfen, die der Klärung bedürfen und
+die die weitere Forschung voranbringen könnten. In groben Zügen soll hier
+umrissen werden, welche Fragestellungen im Problemfeld des Zusammenhangs
+von Neugier und Allgemeinwissen vielversprechend erscheinen.
+4.3.1 Eigenschaften des Reizes (State-Neugier)
+Aus welchen Gründen führte bei einem Teilnehmer eine
+Allgemeinwissensfrage zur Informationssuche (und nachfolgend zur
+Wissensverbesserung) und eine andere nicht?
+Mit Berlyne (1954a) könnte man argumentieren, dass sich die
+Allgemeinwissensfragen des GKT-D in der Intensität des von ihnen ausgelösten
+kognitiven Konflikts unterscheiden, Fragen also je nach der durch Eigenschaften
+des Reizes ausgelösten State-Neugier Informationssuche nach sich zogen oder
+nicht. Tatsächlich lag der Anteil derjenigen, die sich bei einer Frage verbesserten,
+zwischen .00 und .14. Berücksichtigt man als Bezugsgröße nur diejenigen, die
+sich noch verbessern konnten (diejenigen, die zum Zeitpunkt T1 noch keine
+korrekte Antwort gegeben hatten), so lag der Anteil sogar in der weiten Spanne
+zwischen .00 und .48. Bezogen auf die Fragen ist die Anzahl der Verbesserungen
+deutlich mit der Anzahl bereits zum Zeitpunkt T1 korrekt gegebenen Antworten
+korreliert, r(93) = -.34, p < .001, was im deutlichen Gegensatz steht zu
+entsprechenden Befunden bezogen auf die Personen (s. Abschnitt 3, S. 27). Die
+Reize (Fragen) unterschieden sich also erheblich in dem Ausmaß, in dem sie
+Informationssuche auslösten.
+In den Datensätzen finden sich jedoch auch Hinweise, die diese
+Interpretation in Frage stellen: Die Frage 8 des Themenbereichs „Wissenschaft
+und Entdeckungen“ („Wer erreichte als erster den Südpol?“) wurde zum
+Umfragezeitpunkt T1 von knapp einem Viertel der Teilnehmer korrekt mit
+„Amundsen“ beantwortet. Eine inkorrekte Antwort, die ebenfalls recht häufig
+gegeben wurde, war „Scott“. Es scheint also so, als ob einem relativ großen Anteil
+der Teilnehmenden vom Wettlauf zum Südpol zwischen Amundsen und Scott
+wusste, nur nicht unbedingt, wer letztlich den Sieg davon trug. Nach Berlyne
+(1954a) könnte das als Indiz für eine Frage interpretiert werden, die einen starken
+kognitiven Konflikt auslöst, weil die Antwortmöglichkeiten ähnlich wahrscheinlich
+erscheinen. Mit hoher Wahrscheinlichkeit sollte sie also Informationssuche nach
+sich zieht. Erstaunlicherweise änderten jedoch kaum weniger Personen ihre
+Antwort fälschlicherweise von „Amundsen“ (T1) zu „Scott“ (T2) als korrekt von
+„Scott“ (T1) zu „Amundsen“ (T2). Ähnlich wahrscheinliche Antwortmöglichkeiten
+scheinen also dennoch keine besonders starke Tendenz zur Informationssuche
+ausgelöst zu haben, sondern vielmehr die eher beliebige Angabe einer der beiden
+Antwortmöglichkeiten. Berlyne bietet als Erklärung an, dass die Gesamtstärke der
+Antworttendenzen eher niedrig war. Das steht jedoch im Gegensatz dazu, dass
+weder die korrekten Antworten zum Zeitpunkt T1 noch die Antwortverbesserungen
+auffällig niedrig ausfielen. Da keine weiterführenden Informationen zu den
+Prozessen bei einzelnen Personen vorliegen, muss diese Beobachtung
+selbstverständlich sehr vorsichtig interpretiert werden. Dennoch scheint darin ein
+interessanter Ansatz für weiterführende Forschung zu liegen.
+Über die grundlegende Aussage hinaus, dass Personen mit hoher Trait-
+Neugier häufiger und intensiver State-Neugier erleben (Naylor, 1981), sollte das
+Zusammenspiel von Reiz, State- und Trait-Neugier intensiver erforscht werden.
+Annehmen könnte man beispielsweise eine Interaktion zwischen State- und Trait-
+Neugier in dem Sinne, dass bestimmte Reizkonstellationen allgemein starke
+State-Neugier auslösen, während andere nur bei ausgeprägter Trait-Neugier
+Wirkung zeigen. Welche Reizkonstellationen das betrifft, könnte beispielsweise für
+die Entwicklung von Lernmaterialien wichtig sein.
+4.3.2 Neugier und Interesse
+Aus welchen Gründen führte ein und dieselbe Allgemeinwissensfrage bei
+einer Person zur Informationssuche (und nachfolgend zur Wissensverbesserung)
+und bei einer anderen nicht?
+Die alltagspsychologische Antwort dazu lautet: „Den einen interessiert das
+Thema, den anderen nicht.“ Interesse ist hier zu verstehen als Trait, nämlich der
+Disposition einer Person, auf einen Wissensbereich stärker anzusprechen als auf
+einen anderen.
+Schmid (2008) verweist auf Untersuchungen verschiedener Forschergruppen
+zum situationalen und personalen Interesse, wobei situationales Interesse ähnlich
+wie State-Neugier eher kurzlebig aus situationalen Reizen entsteht, während
+personales Interesse als erlerntes Wert- und Wissenssystem zu verstehen ist.
+Dabei existieren Überschneidungen mit Begriffen der Neugierforschung, aber die
+Abgrenzungen sind nicht ganz deckungsgleich.
+Insgesamt scheint es in der Neugierforschung eine Lücke zu geben, die
+durch den Interessenbegriff gut gefüllt werden könnte: Neugier ist immer auf ein
+Objekt bezogen. Auf einer relativ abstrakten Ebene kann man beispielsweise
+Allgemeinwissen als Objekt der Neugier ansehen, wie das in der vorliegenden
+Arbeit geschehen ist. Wechselt man jedoch auf eine konkretere Ebene, so lässt
+sich das Allgemeinwissen in eine Reihe von Wissensdomänen aufgliedern (Lynn
+et al., 2004). Menschen sind nun gemäß alltäglicher Beobachtung offenbar
+unterschiedlich disponiert, auf Reize aus verschiedenen Domänen anzusprechen
+und Neugierverhalten zu zeigen – umgangssprachlich nennt man das Interesse.
+Ein Profil dieser Disposition über die Domänen wäre als inhaltsbezogene Struktur
+von Trait-Neugier interpretierbar und könnte möglicherweise Widersprüche in der
+bisherigen Neugierforschung aufklären helfen.
+4.3.3 Neugier zusätzlich zu Offenheit für Erfahrung?
+Wozu wird das Konstrukt der Neugier gebraucht, wenn es schon als
+Offenheit für Erfahrung in lange erprobten Instrumenten zur Erhebung der Big Five
+umgesetzt ist?
+Zu den Vorteilen des Neugierkonstrukts nach Berlyne (1954a) zählt es, dass
+damit immer auch Eigenschaften des Reizes (State-Neugier) angesprochen sind,
+auch wenn deren Beziehung zur Trait-Neugier noch besser untersucht werden
+müssen. Für die Forschung im Kontext der intendierten Wissensvermittlung stellt
+das einen wichtigen Ansatzpunkt dar, der es ermöglicht, Lernsituationen
+förderlicher zu gestalten.
+Darüber hinaus erscheint es für die künftige Forschung wichtig, dass die
+inkrementelle Validität von Neugier gegenüber Offenheit für Erfahrungen in Bezug
+auf unterschiedliche Kriterien (etwa auf Wissensverbesserung) überprüft wird.
+4.3.4 Aktivitäten zu Informationssuche und Wissenserwerb
+In der vorliegenden Untersuchung wurde zur Kontrolle erhoben, ob Personen
+zwischen den Umfragen Antworten nachgeschlagen oder nachgefragt hatten. Es
+ergaben sich signifikante Korrelationen von r(356) = -.47 zwischen Nachschlagen,
+r(356) = -.27 für Nachfragen und r(356) = -.48 für mindestens eins von beidem,
+alle p < .001 (negative Korrelationen durch Kodierung von „ja“ als 0 und „nein“ als
+1).
+Für die künftige Neugierforschung könnte es sich als fruchtbar erweisen, die
+Aktivitäten zur Informationssuche und zum Wissenserwerb intensiver zu studieren
+und sie in Beziehung zu erfolgreicher Wissensvermehrung zu setzen. Von
+besonderem Interesse wäre es dabei, die Bedeutung von reiner Aktivierung
+verschütteten Wissens (durch Nachdenken ohne verhaltensmäßig beobachtbare
+Informationssuche) im Vergleich zu den anderen Varianten zu erfassen.
+4.3.5 Führt Neugier zu tieferem Wissen?
+Der GKT-D und andere Allgemeinwissenstests müssen sich bis zum Beweis
+des Gegenteils oder der Konstruktion differenzierterer Tests die Frage gefallen
+lassen, ob sie extrem oberflächliches Wissen genauso bewerten wie tiefes, gut
+vernetztes Wissen und ob ihre Vorhersagekraft für externe Leistungs- und
+Erfolgskriterien dadurch nicht deutlich eingeschänkt ist (s. Abschnitt 4.2.2).
+Vorstellbar wäre nun, dass diejenigen, die von der ersten Testung zur
+zweiten ihr Wissen verbessert haben, sich im Vergleich zu denjenigen, welche die
+Antwort gleich beim ersten Mal wussten, auch ein tieferes Wissen aneigneten.
+Schließlich wäre es eine naheliegende Annahme, dass eine Person, die sich
+aufrafft, die Antwort auf eine Frage nachzuschlagen oder jemanden danach zu
+befragen, so motiviert ist, gleich noch ein wenig mehr Wissen über das isolierte
+Faktum hinaus aufzunehmen. Nach Berlyne (1954a) wäre anzunehmen, dass die
+Erinnerungsleistung auch dafür noch gesteigert wäre, so dass eine solche Person
+bei der zweiten Testung weitere Informationen über den Kern der Frage hinaus
+wiedergeben könnte.
+Alternativ könnte man anhand (qualitativ) vertieften Wissens (im Gegensatz
+zu rein quantitativer Differenzbildung) zwischen erster und zweiter Testung
+unterscheiden, wer Neugierverhalten gezeigt hat. Das würde auch diejenigen in
+die Überprüfung einbeziehen, die beim ersten Mal bereits die korrekte Antwort
+gegeben haben, sich aber nicht sicher waren und deshalb ebenfalls nach
+Informationen gesucht und ihr Wissen erweitert haben (s. Abschnitt 4.2.3). Das
+Untersuchungsdesign müsste dafür allerdings komplett anders angelegt werden.
+Sollte sich die Annahme tieferen Wissens durch Neugier-induzierte
+Informationssuche untermauern lassen, so würde das für die Gestaltung von
+Lernsituation in einer Art sprechen, die eigenes Entdecken ermöglichen, und
+insgesamt die Bedeutung der Neugier für das Lernen noch weiter betonen.
+4.3.6 Geschlechtsunterschiede
+Zahlreiche Studien haben sich mit Geschlechtsunterschieden im
+Allgemeinwissen befasst. Sie sind regelmäßig zu dem Schluss gekommen, dass
+Männer Frauen im Allgemeinwissen überlegen sind. Lynn, Irwing und Cammock
+(2001) widmeten sich der Frage, wie diese Unterschiede zu erklären seien und
+verwerfen die Erklärung, dass eine verzerrte Repräsentation eher männlicher oder
+weiblicher Wissensdomänen in Tests dafür verantwortlich sei. Dabei übersehen
+sie allerdings, dass sie bei der Darstellung der Auswahl der Wissensdomänen für
+den GKT von genau solch einer Verzerrung berichten: Sie nennen „television
+soaps“ (S. 29) als Beispiel für eine Wissensdomäne, die zu starkes
+Spezialistenwissen erfordere und daher nicht berücksichtigt werden solle. Dabei
+übersehen sie, dass Daily Soaps speziell für die Zielgruppe der Frauen sind (und
+zwar Frauen von eher geringer Bildung) konzipiert und geschrieben werden. Die
+Alternativerklärung einer verzerrten Auswahl von Wissensdomänen für die Tests
+oder aber einer unterschiedlichen kulturellen Wertschätzung eher männlicher oder
+weiblicher Wissensdomänen und damit der Einordnung als wertzuschätzendes
+Allgemeinwissen (oder nicht) entsprechend der Definition von Lynn und Kollegen
+(2004) kann somit meines Erachtens noch nicht als ausgeräumt betrachtet
+werden.
+Lynn und Irwing (2002) weisen noch einmal darauf hin, dass
+Leistungsunterschiede auch in unterschiedlichen Interessen von Männern und
+Frauen liegen könnten. Dieser Erklärungsansatz könnte in ähnlicher Weise auch
+mit Bezug auf Neugier formuliert werden: Möglicherweise gibt es Unterschiede
+darin, welche Objekte die Neugier von Männern und Frauen wecken, oder aber
+Männern tendieren dazu, ihre Neugier breiter (stärker diversiv?) auf viele
+Wissensdomänen zu richten, während Frauen vielleicht zu spezifischerer Neugier
+tendieren und dort vertieftes Wissen ansammeln (s. Abschnitt 4.3.3). Zudem wäre
+es denkbar, dass Frauen andere Fakten zum Gegenstand ihrer Neugier machen
+als Männer – beispielsweise in der Form, dass Frauen möglicherweise eher den
+Text eines Popsongs reproduzieren, während Männer bei einer Frage nach dem
+Komponisten im Vorteil wären. Alle diese Fragen sind bislang ungeklärt. Die
+Untersuchung von Neugier auf Geschlechtsunterschiede in Stärke, Ausrichtungen
+und den bevorzugten Objekten könnte der Forschung in diesem Bereich neue
+Anstöße geben.
+Geschlechtsunterschiede fanden sich auch in der vorliegenden
+Untersuchung: Zum Zeitpunkt T1 zeigten Teilnehmerinnen (M = 40.69, SD =
+13.39) ein niedrigeres Allgemeinwissen als männliche Teilnehmer (M = 44.71, SD
+= 13.89). Der Unterschied von ΔM = -4.02 war signifikant, t(356) = -2.54, p = .01
+und stellte einen mittleren Effekt von d = 0.30 (gemäß Cohen, 1988) dar. Bei der
+Verbesserung des Allgemeinwissens lagen jedoch die Teilnehmerinnen vorne (M
+= 8.16, SD =6.62). Der Unterschied ΔM = 1.54 war ebenfalls signifikant (bei
+ungleichen Varianzen), t(219.07) = 2.50, p = .01; bei einem kleinen Effekt von d =
+0.11. Der größere Wissensgewinn bei den Teilnehmerinnen konnte zwar ihren
+Nachteil zum Zeitpunkt T2 nicht vollständig ausgleichen, aber beachtlich
+verringern (Frauen: M = 47.41, SD =14.39; Männer: M = 50.07, SD = 14.98). Das
+hatte zur Folge, dass der Geschlechtsunterschied im Allgemeinwissen von ΔM = -
+2.66 zum Zeitpunkt T2 nicht mehr signifikant war, t(356) = -1.54, p = .12, n.s. Die
+Effektstärke halbierte sich beinahe auf d = 0.18.
+Diese Ergebnisse müssen vorsichtig interpretiert werden, da die untersuchte
+Stichprobe in Bezug auf die Geschlechter nicht als unverzerrt gelten kann.
+Dennoch wäre es vor allem für die Förderung des Allgemeinwissens in der Praxis
+äußerst interessant, wenn sich bestätigen ließe, dass eine gezielte Provokation
+von (State-)Neugier, wie sie in der vorliegenden Untersuchung durch den ersten
+Allgemeinwissenstest vorgenommen wurde, den Frauen beim Aufholen des
+Allgemeinwissensvorsprungs der Männer helfen könnte.
+4.4 Fazit
+Neugier stellt ein alltagspsychologisch wichtiges Konstrukt dar, dem auch die
+wissenschaftliche Psychologie verstärkt Aufmerksamkeit widmen sollte. Für die
+Praxis können aus der Neugierforschung weitere Erkenntnisse für Faktoren von
+Leistung und Erfolg in Bildungskontexten wie auch im Beruf erwartet werden.
+Daneben lassen sich möglicherweise Empfehlungen zur Gestaltung von
+Lernmaterialien und Lernsituationen ableiten und bisherige Hypothesen (etwa zum
+entdeckenden Lernen) dazu bestätigen oder widerlegen. Welche Bedeutung der
+Neugier beim Wissenerwerb letztlich zukommt, ob und wie sie förderbar ist und
+wie ihr Fehlen kompensiert werden kann, sind bislang ungeklärte Fragen.
+Das Allgemeinwissen als Objekt der Neugier könnte sich dabei als
+besonders geeignetes Forschungsgebiet erweisen, nicht nur deshalb, weil es in
+unserer Gesellschaft positiv bewertet wird, sondern auch weil es kaum durch
+zusätzliche Annahmen wie Anwendbarkeit, Interesse oder Spezialisierung
+eingeschränkt ist und Ergebnisse möglicherweise hoch generalisierbar wären. Mit
+Neidhardt-Wilberg (2005) muss allerdings gefordert werden, dass das Konstrukt
+des Allgemeinwissens selbst intensiv weiter beforscht wird. Nur so können Lücken
+zu Fragen der Entstehung und Entwicklung von Allgemeinwissen über die
+Lebensspanne und zu seiner validen Erhebung geschlossen werden und bisherige
+Erkenntnisse dazu abgesichert werden. Die systematische Einbeziehung von
+Neugier in die Forschung zum Allgemeinwissen könnte dabei das Augenmerk auf
+bisher ungeklärte Phänomene und neue Erklärungsansätze für bereits bekannte
+lenken.
