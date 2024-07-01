@@ -1,0 +1,4 @@
+
+
+def analysetext():
+    pass
