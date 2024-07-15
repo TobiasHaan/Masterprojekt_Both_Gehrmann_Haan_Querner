@@ -2,7 +2,7 @@
 # Calls the backend functions through button presses from relevant files
 # FF Tobias
 
-import analyse, feedback, readfiles
+import analyse, feedback, readfiles, storage
 import streamlit as st
 import pandas as pd
 import tkinter as tk
@@ -14,10 +14,16 @@ from nltk.tokenize import sent_tokenize
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 root = tk.Tk()
 root.withdraw()
+#mycsv = pd.DataFrame
 
-
+#@st.cache_data
+def loadcsv():
+    df = pd.read_csv('./data/thesis.csv', sep=',', header = None, index_col = 0)
+    storage.data = df
+    return df
 
 def grapher(gtype, data):
     fig, ax = plt.subplots()
@@ -35,22 +41,33 @@ def grapher(gtype, data):
 if 'stage' not in st.session_state:
     st.session_state.stage = 0
 
-st.set_page_config(layout='wide')
-
-st.title("Thesis Analyser")
-resultbox = st.expander("Click me")
-col1, col2, col3 = st.columns(3)
-
-
-root.wm_attributes('-topmost', 1)
-
 def set_state(i):
     st.session_state.stage = i
 
+st.set_page_config(layout='wide')
+root.wm_attributes('-topmost', 1)
+
+col1, col2 = st.columns(2)
+
+
+
+
+
 with st.sidebar:
-    st.title('Program states')
-    st.button('Data input')
-    st.button('Show results')
+    st.title('Thesis Analyser')
+    if(st.button('Load CSV')):
+        mycsv = loadcsv()
+        #mycsv = pd.read_csv('./data/thesis.csv', sep=',', header = None, index_col = 0)
+        col1.write(mycsv)
+        
+    if(st.button('Save to CSV')):
+        pass
+        #saver = mycsv.to_numpy()
+        #np.savetxt('./data/thesis.csv', [p for p in zip(headers, saver)], delimiter=',', fmt='%s')
+        #st.write(mycsv['col1 '])
+        #mycsv.to_csv('./data/thesis.csv') 
+    if(st.button('Load thesis files')):
+        pass
 
     
 
@@ -64,18 +81,13 @@ testdata2 = [1,2,3,4,5,6,7,8,9]
 
 
 with col1:
-    if(st.button("Read CSV")):
-        mycsv = pd.read_csv('./data/thesis.csv', sep=',', header = None, index_col = 0)
-        grapher("box", mycsv)
-    if(st.button("Write CSV")):
-        np.savetxt('./data/thesis.csv', [p for p in zip(headers, testdata)], delimiter=',', fmt='%s')
+    st.title("Data overview")
+    if(st.button("Create graphs")):
+        try:
+            grapher("box", storage.data)
+        except AttributeError:
+            col1.write("Ensure data is loaded beforehand!")
+        
 
 with col2:
-    st.button("col2 button")
-
-    
-with col3:
-    st.button("col3 button")
-
-with resultbox:
-    pass
+    st.title("Thesis feedback")
