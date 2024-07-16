@@ -17,11 +17,11 @@ import numpy as np
 
 root = tk.Tk()
 root.withdraw()
-#mycsv = pd.DataFrame
+headers = ['Title', 'Page count', 'Word count', 'Avg. word length', 'Sentence count', 'Avg. sentence length', 'Figure count']
 
 #@st.cache_data
 def loadcsv():
-    df = pd.read_csv('./data/thesis.csv', sep=',', header = None, index_col = 0)
+    df = pd.read_csv('./data/thesis.csv', sep=',', header = None, index_col = 0, skiprows=1)
     storage.data = df
     return df
 
@@ -57,27 +57,16 @@ with st.sidebar:
     st.title('Thesis Analyser')
     if(st.button('Load CSV')):
         mycsv = loadcsv()
-        #mycsv = pd.read_csv('./data/thesis.csv', sep=',', header = None, index_col = 0)
         col1.write(mycsv)
         
     if(st.button('Save to CSV')):
-        pass
-        #saver = mycsv.to_numpy()
-        #np.savetxt('./data/thesis.csv', [p for p in zip(headers, saver)], delimiter=',', fmt='%s')
-        #st.write(mycsv['col1 '])
-        #mycsv.to_csv('./data/thesis.csv') 
+        saver = loadcsv()
+        col1.write(saver)
+        saver.to_csv('./data/thesis.csv') 
     if(st.button('Load thesis files')):
         pass
-
-    
-
-headers = ['Title', 'Page count', 'Word count', 'Avg. word length', 'Sentence count', 'Avg. sentence length', 'Figure count']
-testdata = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing']
-testdata2 = [1,2,3,4,5,6,7,8,9]
-
-
-
-
+    if(st.button('Load own thesis for analysis')):
+        pass
 
 
 with col1:
