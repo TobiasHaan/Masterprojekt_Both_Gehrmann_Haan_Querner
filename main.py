@@ -9,6 +9,7 @@ import tkinter as tk
 from tkinter import filedialog
 import pymupdf
 import nltk
+import fitz
 from nltk.tokenize import sent_tokenize, word_tokenize
 import matplotlib.pyplot as plt
 import numpy as np
@@ -44,6 +45,9 @@ def extract_text(file):
 #         value = value + dataframe[row]
 
 #     return averages
+
+col11, col12 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with st.sidebar: # Sidebar is accessible regardless of state
     st.title('Thesis Analyser')
@@ -83,19 +87,33 @@ with st.sidebar: # Sidebar is accessible regardless of state
             total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
             avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
             comparer = loadcsv()
+
+
             #st.write(comparer)
             comparer = comparer.transpose()
-            #st.write(comparer)
             comparer = comparer.drop(columns="Title")
-            #comparer = comparer.apply(pd.to_numeric)
-            type(comparer.at[1]['Page count'])
+            comparer["Page count"] = pd.to_numeric(comparer["Page count"])
+            comparer["Word count"] = pd.to_numeric(comparer["Word count"])
+            comparer["Avg. word length"] = pd.to_numeric(comparer["Avg. word length"])
+            comparer["Sentence count"] = pd.to_numeric(comparer["Sentence count"])
+            comparer["Avg. sentence length"] = pd.to_numeric(comparer["Avg. sentence length"])
+            comparer["Figure count"] = pd.to_numeric(comparer["Figure count"])
+            st.write(comparer)
             averages = comparer.mean()
-            s = pd.Series([1, 2, 3])
-            st.write(s.mean())
+            averages = pd.DataFrame(averages)
+            averages = averages.rename_axis('Values').rename_axis('attributes', axis='columns')
+            myaverages = {"Page count": [0], "Word count" : [total_words], "Avg. word length" : [0], "Sentence count": [num_sentences], "Avg. sentence length": [avg_sentence_length], "Figure count": [0]}
+            myaverages = pd.Series(myaverages)
+            averages.insert(column=len(averages.columns), loc=len(averages.columns), value=myaverages)
+            averages.columns
+            #st.write(averages.columns.names())
+            st.write(averages.columns)
+            st.table(averages)
+            
 
 if st.session_state.stage == 0: # State for data selection and analysis preparation
     st.expander("")
-    col1, col2, col3 = st.columns(3)
+
     with col1:
         st.title("Figure types")
         check_box = st.checkbox("Box plots")
@@ -141,7 +159,7 @@ if(st.button("Create graphs")):
 
 
 if st.session_state.stage == 1: # State for results
-    col11, col12 = st.columns(2)
+
     with col11:
         st.title("Data overview")
 
