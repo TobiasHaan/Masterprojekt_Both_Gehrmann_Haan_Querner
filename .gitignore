@@ -10,3 +10,4 @@ __pycache__/analyse.cpython-311.pyc
 *.pdf
 *.pyc
 /__pycache__
+*.pyc

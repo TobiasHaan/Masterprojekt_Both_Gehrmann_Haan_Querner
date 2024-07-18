@@ -191,24 +191,30 @@ with col11:
     #blots = st.expander('Boxplots')
     #with graphs:
     if(storage.createbox):
-       with st.expander('Boxplots'):
+        with st.expander('Boxplots'):
         #st.write("I should create box plots now!")
-            gui.pcngrapher("box", storage.data)
-            gui.wcngrapher("box", storage.data)
-            gui.wlngrapher("box", storage.data)
-            gui.scngrapher("box", storage.data)
-            gui.slngrapher("box", storage.data)
-            gui.fcngrapher("box", storage.data)
+            try:
+                gui.pcngrapher("box", storage.data)
+                gui.wcngrapher("box", storage.data)
+                gui.wlngrapher("box", storage.data)
+                gui.scngrapher("box", storage.data)
+                gui.slngrapher("box", storage.data)
+                gui.fcngrapher("box", storage.data)
+            except TypeError:
+                st.write("Load data first!")
 
     if(storage.createviolin):
         with st.expander('Violinplots'):
         #st.write("I should create violin plots now!")
-            gui.pcngrapher("violin", storage.data)
-            gui.wcngrapher("violin", storage.data)
-            gui.wlngrapher("violin", storage.data)
-            gui.scngrapher("violin", storage.data)
-            gui.slngrapher("violin", storage.data)
-            gui.fcngrapher("violin", storage.data)
+            try:
+                gui.pcngrapher("violin", storage.data)
+                gui.wcngrapher("violin", storage.data)
+                gui.wlngrapher("violin", storage.data)
+                gui.scngrapher("violin", storage.data)
+                gui.slngrapher("violin", storage.data)
+                gui.fcngrapher("violin", storage.data)
+            except TypeError:
+                st.write("Load data first!")
     elif(storage.createscatter):
         #st.write("I should create scatter plots now!")
         gui.grapher("scatter", storage.data)
