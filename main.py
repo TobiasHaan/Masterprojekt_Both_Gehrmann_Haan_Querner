@@ -187,22 +187,33 @@ with col2:
 with col11:
     st.title("Data overview")
 
-    graphs = st.expander('Figures')
+    #graphs = st.expander('Figures')
     #blots = st.expander('Boxplots')
-    with graphs:
-        if(storage.createbox):
-            #st.write("I should create box plots now!")
+    #with graphs:
+    if(storage.createbox):
+       with st.expander('Boxplots'):
+        #st.write("I should create box plots now!")
             gui.pcngrapher("box", storage.data)
-            gui.grapher("box", storage.data)
+            gui.wcngrapher("box", storage.data)
+            gui.wlngrapher("box", storage.data)
+            gui.scngrapher("box", storage.data)
+            gui.slngrapher("box", storage.data)
+            gui.fcngrapher("box", storage.data)
 
-        elif(storage.createviolin):
-            #st.write("I should create violin plots now!")
-            gui.grapher("violin", storage.data)
-        elif(storage.createscatter):
-            #st.write("I should create scatter plots now!")
-            gui.grapher("scatter", storage.data)
-        else:
-            st.write("Choose at least one plot type.")
+    if(storage.createviolin):
+        with st.expander('Violinplots'):
+        #st.write("I should create violin plots now!")
+            gui.pcngrapher("violin", storage.data)
+            gui.wcngrapher("violin", storage.data)
+            gui.wlngrapher("violin", storage.data)
+            gui.scngrapher("violin", storage.data)
+            gui.slngrapher("violin", storage.data)
+            gui.fcngrapher("violin", storage.data)
+    elif(storage.createscatter):
+        #st.write("I should create scatter plots now!")
+        gui.grapher("scatter", storage.data)
+    else:
+        st.write("Choose at least one plot type.")
 
 
 with col12:
