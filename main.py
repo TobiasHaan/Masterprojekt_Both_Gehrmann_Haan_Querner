@@ -16,6 +16,7 @@ import numpy as np
 from collections import defaultdict
 import re
 from statistics import mean
+import PyPDF2
 
 st.set_page_config(layout='wide')
 root = tk.Tk()
@@ -123,6 +124,24 @@ def add_chart_to_pdf(input_pdf, chart_image, output_pdf):
     # Use incremental save when modifying an existing PDF
     doc.save(output_pdf, incremental=True, encryption=doc.is_encrypted)
 
+def generate_comparative_chart(data, current_file, output_image):
+    df = pd.DataFrame(data)
+    
+    current_file_data = df[df['Titel Dokument'] == current_file]
+    other_files_data = df[df['Titel Dokument'] != current_file]
+    avg_sentence_length_others = other_files_data['Durchschnittliche Satzlänge'].mean()
+
+    plt.figure(figsize=(10, 5))
+    plt.bar(current_file_data['Titel Dokument'], current_file_data['Durchschnittliche Satzlänge'], color='blue', label='Current File')
+    plt.axhline(y=avg_sentence_length_others, color='r', linestyle='--', label='Durchschnitt der anderen')
+    plt.xlabel('Titel Dokument')
+    plt.ylabel('Durchschnittliche Satzlänge')
+    plt.legend()
+    plt.title('Vergleichende Analyse der durchschnittlichen Satzlängen')
+    
+    plt.savefig(output_image)
+    plt.close()
+
 col1, col2 = st.columns(2)
 #create_graphs = st.button("Create graphs")
 col11, col12 = st.columns(2)
@@ -157,7 +176,8 @@ with st.sidebar: # Sidebar is accessible regardless of state
                 f.write(uploaded_file.getbuffer())
             text = extract_text(input_pdf)
             
-
+            reader = PyPDF2.PdfFileReader(input_pdf)
+            num_pages = reader.getNumPages()
             num_sentences = len(sent_tokenize(text, language='german'))
             total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
             words = nltk.word_tokenize(text, 'german')
@@ -166,11 +186,12 @@ with st.sidebar: # Sidebar is accessible regardless of state
             avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
 
             tocsv = []
-            tocsv = [input_pdf,'0',total_words,wortlen,num_sentences,avg_sentence_length,'0'] #Title, Page count, Word count, Avg. word length, Sentence count, Avg. sentence length, Figure count
+            tocsv = [input_pdf,num_pages,total_words,wortlen,num_sentences,avg_sentence_length,'0'] #Title, Page count, Word count, Avg. word length, Sentence count, Avg. sentence length, Figure count
             df = pd.DataFrame(tocsv, headers)
             df2 = loadcsv()
-            df2.insert(column=len(df2.columns)+1, loc=len(df.columns)+1, value=df)
-            storage.data = df2
+            storage.data.insert(column=len(storage.data.columns)+1, loc=len(df.columns)+1, value=df)
+            #print(storage.data)
+            #storage.data = df2
             #df2.to_csv('./data/thesis.csv')
 
     if(thesis_uploader): # For analysis
@@ -180,13 +201,38 @@ with st.sidebar: # Sidebar is accessible regardless of state
             with open(input_pdf, "wb") as f:
                 f.write(thesis.getbuffer())
             text = extract_text(input_pdf)
+            results = 0
 
+            reader = PyPDF2.PdfFileReader(input_pdf)
+            num_pages = reader.getNumPages()
             explanations = identify_definitions_explanations(text)
             inconsistent_explanations = analyze_consistency(explanations)
             output_pdf = f"annotated_{input_pdf}"
             inconsistency_pages = annotate_pdf_with_feedback(input_pdf, output_pdf, inconsistent_explanations)
             pages_with_inconsistencies = ', '.join(map(str, sorted(inconsistency_pages))) if inconsistency_pages else 'None'
             count_of_inconsistencies = len(inconsistency_pages)
+
+
+
+            num_sentences = len(sent_tokenize(text, language='german'))
+            total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
+            words = nltk.word_tokenize(text, 'german')
+            worte = len(words)
+            wortlen = mean([len(w) for w in words])
+            avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
+
+            data = []
+            data.append({
+            'Titel Dokument': input_pdf,
+            'Anzahl der Sätze': num_sentences,
+            'Durchschnittliche Satzlänge': avg_sentence_length,
+            'Anzahl der Inkonsistenzen': count_of_inconsistencies,
+            'Seiten mit Inkonsistenzen': pages_with_inconsistencies
+            })
+
+            chart_image = f"chart_{input_pdf}.png"
+            generate_comparative_chart(data, input_pdf, chart_image)
+            add_chart_to_pdf(output_pdf, chart_image, output_pdf)
 
             with open(output_pdf, "rb") as file:
                 col12.download_button(
@@ -196,12 +242,7 @@ with st.sidebar: # Sidebar is accessible regardless of state
                     mime="application/pdf"
                 )
 
-            num_sentences = len(sent_tokenize(text, language='german'))
-            total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
-            words = nltk.word_tokenize(text, 'german')
-            worte = len(words)
-            wortlen = mean([len(w) for w in words])
-            avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
+
 
 
             comparer = loadcsv()
@@ -209,7 +250,7 @@ with st.sidebar: # Sidebar is accessible regardless of state
 
             #st.write(comparer)
             comparer = comparer.transpose()
-            comparer = comparer.drop(columns="Title")
+            #comparer = comparer.drop(columns="Title")
             comparer["Page count"] = pd.to_numeric(comparer["Page count"])
             comparer["Word count"] = pd.to_numeric(comparer["Word count"])
             comparer["Avg. word length"] = pd.to_numeric(comparer["Avg. word length"])
@@ -220,7 +261,7 @@ with st.sidebar: # Sidebar is accessible regardless of state
             averages = comparer.mean()
             averages = pd.DataFrame(averages)
             averages = averages.rename_axis('Values').rename_axis('attributes', axis='columns')
-            myaverages = {"Page count": 0, "Word count" : total_words, "Avg. word length" : wortlen, "Sentence count": num_sentences, "Avg. sentence length": avg_sentence_length, "Figure count": 0}
+            myaverages = {"Page count": num_pages, "Word count" : total_words, "Avg. word length" : wortlen, "Sentence count": num_sentences, "Avg. sentence length": avg_sentence_length, "Figure count": results}
             myaverages = pd.Series(myaverages)
             #storage.averages = myaverages
             averages.insert(column=len(averages.columns), loc=len(averages.columns), value=myaverages)
