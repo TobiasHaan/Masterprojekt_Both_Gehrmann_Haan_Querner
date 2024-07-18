@@ -20,11 +20,14 @@ root.withdraw()
 root.wm_attributes('-topmost', 1)
 headers = ['Title', 'Page count', 'Word count', 'Avg. word length', 'Sentence count', 'Avg. sentence length', 'Figure count']
 
-if 'stage' not in st.session_state:
-    st.session_state.stage = 0
+state = st.session_state
+
+
+if 'stage' not in state:
+    state.stage = 0
 
 def set_state(i):
-    st.session_state.stage = i
+    state.stage = i
 
 #@st.cache_data
 def loadcsv():
@@ -37,8 +40,7 @@ def extract_text(file):
     text = ""
     for page in doc:
         text += page.get_text()
-    return text
-
+    return text      
 
 # def calcavg(dataframe):
 #     for row in dataframe.rows: # iterate over every row, add all of them and divide through amount
@@ -46,17 +48,22 @@ def extract_text(file):
 
 #     return averages
 
-col11, col12 = st.columns(2)
+
 col1, col2, col3 = st.columns(3)
+#create_graphs = st.button("Create graphs")
+col11, col12 = st.columns(2)
 
 with st.sidebar: # Sidebar is accessible regardless of state
     st.title('Thesis Analyser')
+    if(st.button('Reset')):
+        set_state(0)
     if(st.button('Load CSV')):
         mycsv = loadcsv()
-        st.write(mycsv)
+        st.write("Loading successful")
     if(st.button('Save to CSV')):
         saver = loadcsv()
         saver.to_csv('./data/thesis.csv')
+        st.write("Saving successful")
     uploaded_files = st.file_uploader('Load thesis files for database', type="pdf", accept_multiple_files=True)
     thesis_uploader = st.file_uploader('Load own thesis for analysis', type="pdf", accept_multiple_files=True)
 
@@ -104,84 +111,100 @@ with st.sidebar: # Sidebar is accessible regardless of state
             averages = averages.rename_axis('Values').rename_axis('attributes', axis='columns')
             myaverages = {"Page count": [0], "Word count" : [total_words], "Avg. word length" : [0], "Sentence count": [num_sentences], "Avg. sentence length": [avg_sentence_length], "Figure count": [0]}
             myaverages = pd.Series(myaverages)
-            averages.insert(column=len(averages.columns), loc=len(averages.columns), value=myaverages)
-            averages.columns
+            storage.averages.insert(column=len(averages.columns), loc=len(averages.columns), value=myaverages)
+            storage.averages.columns
             #st.write(averages.columns.names())
             st.write(averages.columns)
             st.table(averages)
             
 
-if st.session_state.stage == 0: # State for data selection and analysis preparation
-    st.expander("")
 
-    with col1:
-        st.title("Figure types")
-        check_box = st.checkbox("Box plots")
-        if(check_box):
-            storage.createbox = True
-        else:
-            storage.createbox = False
-        check_vio = st.checkbox("Violin plots")
-        if(check_vio):
-            gui.switchviolin()
-        check_sca = st.checkbox("Scatter plots")
-        if(check_sca):
-            gui.switchscatter()
-        st.write(storage.createbox,storage.createviolin, storage.createscatter)
-    with col2:
-        st.title("Data points to analyse")
-        check_pcn = st.checkbox("Page count")
-        if(check_pcn):
-            gui.switchpcn()
-        check_wcn = st.checkbox("Word count")
-        if(check_wcn):
-            gui.switchwcn()
-        check_wln = st.checkbox("Average word length") 
-        if(check_wln):
-            gui.switchwln()
-        check_scn = st.checkbox("Sentence count")
-        if(check_scn):
-            gui.switchscn()
-        check_sln = st.checkbox("Average sentence length")
-        if(check_sln):
-            gui.switchsln()
-        check_fcn = st.checkbox("Figure count")
-        if(check_fcn):
-            gui.switchfcn()
+#if state.stage == 0: # State for data selection and analysis preparation
+    #st.write(state.stage)
 
-if(st.button("Create graphs")):
-    if(check_box or check_vio or check_sca):
-        try:
+with col1:
+    ftypes = st.title("Figure types")
+    check_box = st.checkbox("Box plots")
+    if(check_box):
+        storage.createbox = True
+    else:
+        storage.createbox = False
+    check_vio = st.checkbox("Violin plots")
+    if(check_vio):
+        storage.createviolin = True
+    else:
+        storage.createviolin = False
+    check_sca = st.checkbox("Scatter plots")
+    if(check_sca):
+        storage.createscatter = True
+    else:
+        storage.createscatter = False  
+with col2:
+    st.title("Data points to analyse")
+    check_pcn = st.checkbox("Page count")
+    if(check_pcn):
+        storage.pcn = True
+    else:
+        storage.pcn = False
+    check_wcn = st.checkbox("Word count")
+    if(check_wcn):
+        storage.wcn = True
+    else:
+        storage.wcn = False
+    check_wln = st.checkbox("Average word length") 
+    if(check_wln):
+        storage.wln = True
+    else:
+        storage.wln = False
+    check_scn = st.checkbox("Sentence count")
+    if(check_scn):
+        storage.scn = True
+    else:
+        storage.scn = False
+    check_sln = st.checkbox("Average sentence length")
+    if(check_sln):
+        storage.sln = True
+    else:
+        storage.sln = False
+    check_fcn = st.checkbox("Figure count")
+    if(check_fcn):
+        storage.fcn = True
+    else:
+        storage.fcn = False
+
+# with col3:
+#     if(create_graphs):
+#         if(check_box or check_vio or check_sca):
+#             try:
+#                 #gui.grapher("box", storage.data)
+#                 set_state(1)
+#                 #st.button("Visualize")
+#             except AttributeError and TypeError:
+#                 col3.write("Ensure data is loaded beforehand!")
+
+#if state.stage == 1: # State for results
+    #st.write(state.stage)
+with col11:
+    st.title("Data overview")
+
+    graphs = st.expander('Figures')
+    #blots = st.expander('Boxplots')
+    with graphs:
+        if(storage.createbox):
+            #st.write("I should create box plots now!")
+            gui.pcngrapher("box", storage.data)
             gui.grapher("box", storage.data)
-            set_state(1)
-        except AttributeError and TypeError:
-            col3.write("Ensure data is loaded beforehand!")
+
+        elif(storage.createviolin):
+            #st.write("I should create violin plots now!")
+            gui.grapher("violin", storage.data)
+        elif(storage.createscatter):
+            #st.write("I should create scatter plots now!")
+            gui.grapher("scatter", storage.data)
+        else:
+            st.write("Choose at least one plot type.")
 
 
-if st.session_state.stage == 1: # State for results
-
-    with col11:
-        st.title("Data overview")
-
-        graphs = st.expander('Figures')
-        with graphs:
-            if(storage.createbox):
-                st.write("I should create box plots now!")
-                #grapher("box", storage.data)
-            else:
-                st.write("Load data first!")
-            if(storage.createviolin):
-                st.write("I should create violin plots now!")
-                #grapher("box", storage.data)
-            else:
-                st.write("Load data first!")
-            if(storage.createscatter):
-                st.write("I should create scatter plots now!")
-                #grapher("box", storage.data)
-            else:
-                st.write("Load data first!")
-
-
-    with col12:
-        st.title("Thesis feedback")
+with col12:
+    st.title("Thesis feedback")
     

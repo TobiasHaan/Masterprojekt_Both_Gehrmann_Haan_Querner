@@ -1,101 +1,73 @@
+# Tobias
+
+import storage
+import matplotlib.pyplot as plt
+import numpy as np
 import streamlit as st
-import pandas as pd
-import tkinter as tk
-from tkinter import filedialog
 
-root = tk.Tk()
-root.withdraw()
+def pcngrapher(gtype,data):
+    fig, ax = plt.subplots()  
+    numpages = data.iloc[1].to_list()       # pcn -> Page count
+    if gtype == "box":
+        if storage.pcn:
+            ax.set_ylabel('Number of pages')
+            converter = list(map(float, numpages))
+            bplotpcn = ax.boxplot(converter)
+            st.pyplot(plt.gcf(), clear_figure=True)
 
-data = {'Words': [1217, 3121, 2214, 1859, 2938],
-        'Images': [14, 2, 9, 0, 11],
-        'Paragraphs': [9, 12, 48, 12, 1]
-}
-
-thdata = {'Words': [1217],
-        'Images': [14],
-        'Paragraphs': [9]
-}
-
-avgdata = {'Words': [],
-        'Images': [],
-        'Paragraphs': []}
-
-df = pd.DataFrame(data)
-
-if 'stage' not in st.session_state:
-    st.session_state.stage = 0
-
-root.wm_attributes('-topmost', 1)
-
-def set_state(i):
-    st.session_state.stage = i
- 
-
-st.sidebar.button('Reset', on_click=set_state, args=[0])
-st.sidebar.button('Load files', on_click=set_state, args=[1])
-st.sidebar.button('Create specification file', on_click=set_state, args=[2])
-st.sidebar.button('Analyse thesis', on_click=set_state, args=[3])
-#st.sidebar.button('Analysis', on_click=set_state, args=[4])
-
-
-if st.session_state.stage == 0: #Start State
-    st.write("Welcome to the thesis tester. As of now, many of the featuers are not implemented yet, and this version is supposed to showcase the rough graphical user interface (GUI) for future users.")
-
-if st.session_state.stage == 1: #Load Spec State
-
+def grapher(gtype, data):
+    fig, ax = plt.subplots()    
+    numpages = data.iloc[1].to_list()       # pcn -> Page count
+    numwords = data.iloc[2].to_list()       # wcn -> Word count
+    avgwordln = data.iloc[3].to_list()      # wln -> Word length
+    numsen = data.iloc[4].to_list()         # scn -> Sentence count
+    avgsenln = data.iloc[5].to_list()       # sln -> Sentence length
+    numfigs = data.iloc[6].to_list()        # fcn -> Figure count
+    num_of_thesis = data.count              #      
+    #converter = list(map(int, converter))
+    #numpages = list(map(int, numpages))
+    if gtype == "box":
+        # if storage.pcn:
+        #     ax.set_ylabel('Number of pages')
+        #     converter = list(map(float, numpages))
+        #     bplotpcn = ax.boxplot(converter)
+        #     st.pyplot(plt.gcf())
+        #     st.pyplot(clear_figure=True)
+        if storage.wcn:
+            ax.set_ylabel('Number of words')
+            converter = list(map(float, numwords))
+            bplotwcn = ax.boxplot(converter)
+            st.pyplot(fig)
+        if storage.wln:
+            ax.set_ylabel('Word length')
+            converter = list(map(float, avgwordln))
+            bplot = ax.boxplot(converter)
+            st.pyplot(fig)
+        if storage.scn:
+            ax.set_ylabel('Number of sentences')
+            converter = list(map(float, numsen))
+            bplot = ax.boxplot(converter)
+            st.pyplot(fig)
+        if storage.sln:
+            ax.set_ylabel('Sentence length')
+            converter = list(map(float, avgsenln))
+            bplot = ax.boxplot(converter)
+            st.pyplot(fig)
+        if storage.fcn:
+            ax.set_ylabel('Number of figures')
+            converter = list(map(float, numfigs))
+            bplot = ax.boxplot(converter)
+            st.pyplot(fig)            
+    elif gtype == "violin":
+        bplot = ax.violinplot(converter)
+        st.pyplot(fig)
+    elif gtype == "scatter":
+        bplot = ax.scatter(converter,converter)
+        #bplot = ax.scatter(converter)
+        st.pyplot(fig)        
+    #st.pyplot(plt.gcf())
     
-    if(st.button('Choose folder')):
-        dirname = st.text_input('Selected folder:', filedialog.askdirectory(master=root))
-    
-    if(st.button('Choose files')):
-        filename = st.text_input('Selected files:', filedialog.askopenfilenames(master=root))
-    if(st.button('Load files to system')):
-        st.write("Loaded files will be analyzed and used to create a dataframe containing countable data such as word count, number of images used, paragraphs etc.")
-    
-   
-
-if st.session_state.stage == 2: #Create Spec State
-    if(st.button("Analyse Dataframe")):
-        st.write("Words per thesis")
-        st.bar_chart(data=df.Words, use_container_width=True)
-        st.write("Images per thesis")   
-        st.bar_chart(data=df.Images, use_container_width=True)
-        st.write("Paragraphs per thesis")
-        st.bar_chart(data=df.Paragraphs, use_container_width=True)
-    if(st.button("Calculate averages")):
-        avgwords = df.loc[:, 'Words'].mean()
-        avgimages = df.loc[:, 'Images'].mean()
-        avgparagraphs = df.loc[:, 'Paragraphs'].mean()
-        st.write("Average number of words used:",avgwords)
-        st.write("Average number of images used:",avgimages)
-        st.write("Average number of paragraphs used:",avgparagraphs)
-        avgdata = {'Words': [avgwords],
-        'Images': [avgimages],
-        'Paragraphs': [avgparagraphs]}
-
-    if(st.button("Create file")):
-        st.text_input(label="File name")
-
-
-if st.session_state.stage == 3: #Thesis analysis state
-    if(st.button("Load thesis")):
-        filename = st.text_input('Selected thesis:', filedialog.askopenfilename(master=root))
-    if(st.button("Analyse")):
-        #st.write("No thesis loaded.")
-        st.write("Your thesis data")
-        st.table(thdata)
-        st.write("Average thesis data in comparison")
-    dataw = {"Word count":[2269, 1217]}
-    datai ={"Images":[7, 9]}
-    datap ={"Paragraphs":[14, 16]}
-    df1 = pd.DataFrame(dataw)
-    df2 = pd.DataFrame(datai)
-    df3 = pd.DataFrame(datap)
-    #df
-    st.bar_chart(df1)
-    st.bar_chart(df2)
-    st.bar_chart(df3)
-
-#if st.session_state.stage == 4: #Analysis
-#    if(st.button("Analysis")):
-#        st.write("Test")
+    #bplot2 = ax.violinplot(converter)
+    #boxplot = mycsv.boxplot(column=['Col1', 'Col2', 'Col3']) 
+    #st.pyplot(plt.gcf())
+    #st.pyplot(bplot)
