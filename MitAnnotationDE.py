@@ -18,7 +18,7 @@ nlp = spacy.load('de_core_news_sm')
 
 # Function to extract text from a PDF
 def extract_text(file):
-    doc = fitz.open(file)
+    doc = fitz.open(stream=file.read(), filetype="pdf")
     text = ""
     for page in doc:
         text += page.get_text()
@@ -57,10 +57,10 @@ def analyze_consistency(explanations):
 
     return inconsistent_explanations
 
-# Function to annotate PDF with feedback and return the page numbers
+# Function to annotate PDF with feedback and return the pages with inconsistencies
 def annotate_pdf_with_feedback(input_pdf, output_pdf, feedback):
     doc = fitz.open(input_pdf)
-    inconsistency_pages = []
+    inconsistency_pages = set()  # Use a set to track unique pages with inconsistencies
     
     for page_num in range(len(doc)):
         page = doc[page_num]
@@ -70,10 +70,10 @@ def annotate_pdf_with_feedback(input_pdf, output_pdf, feedback):
             if explanation in text:
                 highlight_area = page.search_for(explanation)
                 if highlight_area:
-                    inconsistency_pages.append(page_num + 1)  # Add 1 to make page numbers 1-indexed
+                    inconsistency_pages.add(page_num + 1)  # Add page number to set (1-indexed)
                     for rect in highlight_area:
                         highlight = page.add_highlight_annot(rect)
-                        highlight.set_colors(stroke=(1, 0, 0))  # Red color for highlights
+                        highlight.set_colors(stroke=(1, 0, 0))  # Red highlight
                         highlight.update()
 
                     # Add a side comment
@@ -114,7 +114,7 @@ def generate_comparative_chart(data, current_file, output_image):
 # Function to add chart to PDF
 def add_chart_to_pdf(input_pdf, chart_image, output_pdf):
     doc = fitz.open(input_pdf)
-    doc.new_page()  # Add a new page at the end of the document
+    doc.new_page()  # Add a new page at the end of the PDF document
     
     # Get the last page (newly added page)
     page = doc[-1]
@@ -126,25 +126,25 @@ def add_chart_to_pdf(input_pdf, chart_image, output_pdf):
     # Use incremental save when modifying an existing PDF
     doc.save(output_pdf, incremental=True, encryption=doc.is_encrypted)
 
-# Function to format numbers to European style
+# Function to format numbers in European style
 def format_number(value, decimals=2):
     return f"{value:,.{decimals}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
-# Streamlit app
-st.title("Auswertung PDFs)")
+# Streamlit app title
+st.title("Auswertung PDFs")
 
 uploaded_files = st.file_uploader("PDFs hochladen", type="pdf", accept_multiple_files=True)
 
 if uploaded_files:
     data = []
-    display_data = []  # For formatted display data
+    display_data = []  # formatted data for display
     for uploaded_file in uploaded_files:
         input_pdf = uploaded_file.name
         with open(input_pdf, "wb") as f:
             f.write(uploaded_file.getbuffer())
 
         # Extract text
-        text = extract_text(input_pdf)
+        text = extract_text(uploaded_file)
 
         # Identify definitions and explanations
         explanations = identify_definitions_explanations(text)
@@ -152,7 +152,7 @@ if uploaded_files:
         # Analyze consistency
         inconsistent_explanations = analyze_consistency(explanations)
 
-        # Annotate PDF with feedback and get pages with inconsistencies
+        # Annotate PDF with feedback and return pages with inconsistencies
         output_pdf = f"annotated_{input_pdf}"
         inconsistency_pages = annotate_pdf_with_feedback(input_pdf, output_pdf, inconsistent_explanations)
 
@@ -160,11 +160,11 @@ if uploaded_files:
         total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
         avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
 
-        # Convert list of pages to a string
-        pages_with_inconsistencies = ', '.join(map(str, inconsistency_pages)) if inconsistency_pages else 'None'
+        # Convert unique pages with inconsistencies to a comma-separated string
+        pages_with_inconsistencies = ', '.join(map(str, sorted(inconsistency_pages))) if inconsistency_pages else 'None'
 
-        # Adjust the count of inconsistencies by subtracting 1
-        count_of_inconsistencies = max(0, len(inconsistent_explanations) - 1)
+        # Count the number of unique pages with inconsistencies
+        count_of_inconsistencies = len(inconsistency_pages)
 
         data.append({
             'Titel Dokument': input_pdf,
@@ -187,7 +187,7 @@ if uploaded_files:
         generate_comparative_chart(data, input_pdf, chart_image)
         add_chart_to_pdf(output_pdf, chart_image, output_pdf)
 
-        # Provide download button for the annotated PDF
+        # Create download button for annotated PDF
         with open(output_pdf, "rb") as file:
             st.download_button(
                 label=f"Download annotated {input_pdf}",
@@ -196,11 +196,11 @@ if uploaded_files:
                 mime="application/pdf"
             )
 
-    # Display the analysis results in a table
+    # Display analysis results in a table
     df_display = pd.DataFrame(display_data)
     st.table(df_display)
 
-    # Display a chart for average sentence lengths
+    # Display chart for average sentence length
     st.write("Durchschnittliche Satzlänge")
     plt.figure(figsize=(10, 5))
     plt.bar(df_display['Titel Dokument'], df_display['Durchschnittliche Satzlänge'].apply(lambda x: float(x.replace(',', '.'))), color=['blue', 'orange', 'green'])
