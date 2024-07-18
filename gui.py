@@ -23,11 +23,6 @@ def pcngrapher(gtype,data):
                 st.pyplot(fig)
     #except TypeError:
     #    pass
-        # elif gtype == "scatter":
-        #     ax.set_ylabel('Number of pages')
-        #     converter = list(map(float, numpages))
-        #     bplot = ax.violinplot(converter)
-        #     st.pyplot(fig)
 
 def wcngrapher(gtype,data):
     #try:    

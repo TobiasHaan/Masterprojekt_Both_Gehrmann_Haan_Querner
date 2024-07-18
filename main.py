@@ -13,6 +13,9 @@ import fitz
 from nltk.tokenize import sent_tokenize, word_tokenize
 import matplotlib.pyplot as plt
 import numpy as np
+from collections import defaultdict
+import re
+from statistics import mean
 
 st.set_page_config(layout='wide')
 root = tk.Tk()
@@ -42,14 +45,85 @@ def extract_text(file):
         text += page.get_text()
     return text      
 
-# def calcavg(dataframe):
-#     for row in dataframe.rows: # iterate over every row, add all of them and divide through amount
-#         value = value + dataframe[row]
+def identify_definitions_explanations(text):
+    definition_patterns = [
+        r'\bdefiniert als\b',
+        r'\bim Folgenden als\b',
+        r'\bwird als\b',
+    ]
 
-#     return averages
+    explanations = []
+    sentences = sent_tokenize(text, language='german')
+    for sentence in sentences:
+        for pattern in definition_patterns:
+            if re.search(pattern, sentence):
+                explanations.append(sentence)
+                break
 
+    return explanations
 
-col1, col2, col3 = st.columns(3)
+def analyze_consistency(explanations):
+    explanation_counts = defaultdict(int)
+    for explanation in explanations:
+        explanation_counts[explanation] += 1
+
+    inconsistent_explanations = {exp: count for exp, count in explanation_counts.items() if count == 1}
+    
+    # Debugging print statements
+    print(f"Explanation Counts: {dict(explanation_counts)}")
+    print(f"Inconsistent Explanations: {inconsistent_explanations}")
+
+    return inconsistent_explanations
+
+def annotate_pdf_with_feedback(input_pdf, output_pdf, feedback):
+    doc = fitz.open(input_pdf)
+    inconsistency_pages = set()  # Use a set to track unique pages with inconsistencies
+    
+    for page_num in range(len(doc)):
+        page = doc[page_num]
+        text = page.get_text("text")
+
+        for explanation in feedback:
+            if explanation in text:
+                highlight_area = page.search_for(explanation)
+                if highlight_area:
+                    inconsistency_pages.add(page_num + 1)  # Add page number to set (1-indexed)
+                    for rect in highlight_area:
+                        highlight = page.add_highlight_annot(rect)
+                        highlight.set_colors(stroke=(1, 0, 0))  # Red highlight
+                        highlight.update()
+
+                    # Add a side comment
+                    comment_rect = fitz.Rect(rect.x1 + 10, rect.y1, rect.x1 + 300, rect.y1 + 30)
+                    comment = f"Inconsistent explanation: '{explanation}'"
+                    page.add_freetext_annot(
+                        comment_rect,
+                        comment,
+                        fontsize=10,
+                        fontname="helv",
+                        text_color=(1, 0, 0),
+                        fill_color=(1, 1, 1),
+                        border_color=(0, 0, 0)
+                    )
+
+    doc.save(output_pdf)
+    return inconsistency_pages
+
+def add_chart_to_pdf(input_pdf, chart_image, output_pdf):
+    doc = fitz.open(input_pdf)
+    doc.new_page()  # Add a new page at the end of the PDF document
+    
+    # Get the last page (newly added page)
+    page = doc[-1]
+    
+    # Insert the chart image
+    rect = fitz.Rect(0, 0, 595, 842)  # A4 size in points (72 points per inch)
+    page.insert_image(rect, filename=chart_image)
+    
+    # Use incremental save when modifying an existing PDF
+    doc.save(output_pdf, incremental=True, encryption=doc.is_encrypted)
+
+col1, col2 = st.columns(2)
 #create_graphs = st.button("Create graphs")
 col11, col12 = st.columns(2)
 
@@ -58,12 +132,20 @@ with st.sidebar: # Sidebar is accessible regardless of state
     if(st.button('Reset')):
         set_state(0)
     if(st.button('Load CSV')):
-        mycsv = loadcsv()
-        st.write("Loading successful")
+        try:
+            mycsv = loadcsv()
+            st.write("Loading successful")
+            st.write("Loaded CSV with ", len(storage.data.columns), "thesis files.")
+        except FileNotFoundError:
+            st.write("File not found, ensure the thesis.csv file is located in ./data/")
     if(st.button('Save to CSV')):
-        saver = loadcsv()
-        saver.to_csv('./data/thesis.csv')
-        st.write("Saving successful")
+        if not storage.data.empty:
+            saver = storage.data
+            saver.to_csv('./data/thesis.csv')
+            st.write("Saving successful")
+            st.write("Wrote ", len(saver.columns), " thesis files into CSV")
+        else:
+            st.write("Nothing to save.")
     uploaded_files = st.file_uploader('Load thesis files for database', type="pdf", accept_multiple_files=True)
     thesis_uploader = st.file_uploader('Load own thesis for analysis', type="pdf", accept_multiple_files=True)
 
@@ -74,25 +156,54 @@ with st.sidebar: # Sidebar is accessible regardless of state
             with open(input_pdf, "wb") as f:
                 f.write(uploaded_file.getbuffer())
             text = extract_text(input_pdf)
+            
+
             num_sentences = len(sent_tokenize(text, language='german'))
             total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
+            words = nltk.word_tokenize(text, 'german')
+            worte = len(words)
+            wortlen = mean([len(w) for w in words])
             avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
+
             tocsv = []
-            tocsv = [input_pdf,'0',total_words,'0',num_sentences,avg_sentence_length,'0'] #Title, Page count, Word count, Avg. word length, Sentence count, Avg. sentence length, Figure count
+            tocsv = [input_pdf,'0',total_words,wortlen,num_sentences,avg_sentence_length,'0'] #Title, Page count, Word count, Avg. word length, Sentence count, Avg. sentence length, Figure count
             df = pd.DataFrame(tocsv, headers)
             df2 = loadcsv()
             df2.insert(column=len(df2.columns)+1, loc=len(df.columns)+1, value=df)
-            df2.to_csv('./data/thesis.csv')
+            storage.data = df2
+            #df2.to_csv('./data/thesis.csv')
 
     if(thesis_uploader): # For analysis
+        col12.title("Thesis Feedback")
         for thesis in thesis_uploader:
             input_pdf = thesis.name
             with open(input_pdf, "wb") as f:
                 f.write(thesis.getbuffer())
             text = extract_text(input_pdf)
+
+            explanations = identify_definitions_explanations(text)
+            inconsistent_explanations = analyze_consistency(explanations)
+            output_pdf = f"annotated_{input_pdf}"
+            inconsistency_pages = annotate_pdf_with_feedback(input_pdf, output_pdf, inconsistent_explanations)
+            pages_with_inconsistencies = ', '.join(map(str, sorted(inconsistency_pages))) if inconsistency_pages else 'None'
+            count_of_inconsistencies = len(inconsistency_pages)
+
+            with open(output_pdf, "rb") as file:
+                col12.download_button(
+                    label=f"Download annotated {input_pdf}",
+                    data=file,
+                    file_name=output_pdf,
+                    mime="application/pdf"
+                )
+
             num_sentences = len(sent_tokenize(text, language='german'))
             total_words = sum(len(word_tokenize(sentence, language='german')) for sentence in sent_tokenize(text, language='german'))
+            words = nltk.word_tokenize(text, 'german')
+            worte = len(words)
+            wortlen = mean([len(w) for w in words])
             avg_sentence_length = total_words / num_sentences if num_sentences > 0 else 0
+
+
             comparer = loadcsv()
 
 
@@ -105,17 +216,16 @@ with st.sidebar: # Sidebar is accessible regardless of state
             comparer["Sentence count"] = pd.to_numeric(comparer["Sentence count"])
             comparer["Avg. sentence length"] = pd.to_numeric(comparer["Avg. sentence length"])
             comparer["Figure count"] = pd.to_numeric(comparer["Figure count"])
-            st.write(comparer)
+            #st.write(comparer)
             averages = comparer.mean()
             averages = pd.DataFrame(averages)
             averages = averages.rename_axis('Values').rename_axis('attributes', axis='columns')
-            myaverages = {"Page count": [0], "Word count" : [total_words], "Avg. word length" : [0], "Sentence count": [num_sentences], "Avg. sentence length": [avg_sentence_length], "Figure count": [0]}
+            myaverages = {"Page count": 0, "Word count" : total_words, "Avg. word length" : wortlen, "Sentence count": num_sentences, "Avg. sentence length": avg_sentence_length, "Figure count": 0}
             myaverages = pd.Series(myaverages)
-            storage.averages.insert(column=len(averages.columns), loc=len(averages.columns), value=myaverages)
-            storage.averages.columns
-            #st.write(averages.columns.names())
-            st.write(averages.columns)
-            st.table(averages)
+            #storage.averages = myaverages
+            averages.insert(column=len(averages.columns), loc=len(averages.columns), value=myaverages)
+
+            col12.table(averages)
             
 
 
@@ -134,11 +244,11 @@ with col1:
         storage.createviolin = True
     else:
         storage.createviolin = False
-    check_sca = st.checkbox("Scatter plots")
-    if(check_sca):
-        storage.createscatter = True
-    else:
-        storage.createscatter = False  
+    #check_sca = st.checkbox("Scatter plots")
+    # if(check_sca):
+    #     storage.createscatter = True
+    # else:
+    #     storage.createscatter = False  
 with col2:
     st.title("Data points to analyse")
     check_pcn = st.checkbox("Page count")
@@ -172,24 +282,9 @@ with col2:
     else:
         storage.fcn = False
 
-# with col3:
-#     if(create_graphs):
-#         if(check_box or check_vio or check_sca):
-#             try:
-#                 #gui.grapher("box", storage.data)
-#                 set_state(1)
-#                 #st.button("Visualize")
-#             except AttributeError and TypeError:
-#                 col3.write("Ensure data is loaded beforehand!")
-
-#if state.stage == 1: # State for results
-    #st.write(state.stage)
 with col11:
     st.title("Data overview")
 
-    #graphs = st.expander('Figures')
-    #blots = st.expander('Boxplots')
-    #with graphs:
     if(storage.createbox):
         with st.expander('Boxplots'):
         #st.write("I should create box plots now!")
@@ -215,7 +310,7 @@ with col11:
                 gui.fcngrapher("violin", storage.data)
             except TypeError:
                 st.write("Load data first!")
-    elif(storage.createscatter):
+    if(storage.createscatter):
         #st.write("I should create scatter plots now!")
         gui.grapher("scatter", storage.data)
     else:
@@ -223,5 +318,6 @@ with col11:
 
 
 with col12:
-    st.title("Thesis feedback")
+    pass
+    #st.title("Thesis feedback")
     
