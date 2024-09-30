@@ -8,7 +8,6 @@ Dieses Tool analysiert wissenschaftliche Arbeiten, indem es Text aus PDF-Dokumen
 - Installation
 - Anwendung
 - Konfiguration
-- Projektstruktur
 - Lizenz
 
 # Features
