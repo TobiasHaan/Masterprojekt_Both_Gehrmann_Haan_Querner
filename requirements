@@ -31,6 +31,9 @@ regex
 # Optional: speicherbezogene Funktionen und Analyse
 statistics
 
+# Spezifisches deutsches Sprachmodell für spaCy
+de-core-news-sm
+
 # Weitere von tkinter abhängige Bibliotheken (optional)
 tkinter
 
